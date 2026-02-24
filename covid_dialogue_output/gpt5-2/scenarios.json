@@ -1,0 +1,602 @@
+[
+  {
+    "scenario_id": "coviddlg_1_b9c42773",
+    "source_record_id": "1",
+    "patient_query": "Hello doctor, I get a cough for the last few days, which is heavy during night times. No raise in temperature but feeling tired with no travel history. No contact with any Covid-19 persons. It has been four to five days and has drunk a lot of Benadryl and took Paracetamol too. Doctors have shut the OP so do not know what to do? Please help.",
+    "reference_doctor_response": "Hello, I understand your concern. I just have a few more questions.\nDoes your cough has phlegm? Any other symptoms like difficulty breathing? Any other medical condition such as asthma, hypertension? Are you a smoker? Alcoholic beverage drinker?"
+  },
+  {
+    "scenario_id": "coviddlg_2_d322ad30",
+    "source_record_id": "2",
+    "patient_query": "Hello doctor, I am suffering from coughing, throat infection from last week. At that time fever did not persist and also did not felt any chest pain. Two days later, I consulted with a doctor. He prescribed Cavidur 625, Montek LC, Ambrolite syrup and Betaline gargle solution. Since then throat infection improved and frequent cough also coming out. Coughing also improved remarkably though not completely. From yesterday onwards fever is occuring (maximum 100-degree Celcius). I have not come in touch with any foreign returned person nor went outside. In our state, there is no incidence of Covid-19. Please suggest what to do?",
+    "reference_doctor_response": "Hello, I can understand your concern.\nIn my opinion, you should get done a chest x-ray and CBC (complete blood count). If both these are normal then no need to worry much. I hope this helps."
+  },
+  {
+    "scenario_id": "coviddlg_3_a14deab6",
+    "source_record_id": "3",
+    "patient_query": "Hello doctor,\nI am a 23-year-old man. I have anxiety and depression but no immunodeficiency disorders or chronic diseases. First, I wanna know if my immune system is weakened and how likely am I to die of Coronavirus.\nSecond, I have itchiness in my throat and shortness of breath. I always have it because of anxiety but now it is more persistent than before. I also feel a very subtle feeling of pain, burning sensation and itchiness in my chest. I did not go out during the past ten days and have not been in contact with someone with positive Covid. And I quit smoking past week. Down to one or zero cigarettes from 20 a day. Why am I feeling itchiness and pain and burning sensation? How likely am I to have Covid-19? And how likely am I to die from it?",
+    "reference_doctor_response": "Hello. Anxiety can manifest itself in physical or psychological symptoms or both. The irritation sensation you are experiencing is a part of your anxiety. Also please do not believe the hype about covid. It has a low mortality rate, of 2-3 percent, that too mortality is very high in people above 60-70 years with other co-morbidities. You do not have any such disorders and you have not even been in contact with anyone, so do not worry.\nPlease continue to take your medicines for anxiety if you are taking them, if not, please consider visiting a psychiatrist and get started on some low dose SSRI type of medicines. Also, if needed a low dose Benzodiazepines can be added temporarily. Also, please do some deep breathing exercises, or progressive muscle relaxation. You can also take some honey with water to reduce the itching in the throat and also try doing some gargles with lukewarm salt water."
+  },
+  {
+    "scenario_id": "coviddlg_4_01e35de1",
+    "source_record_id": "4",
+    "patient_query": "Hello doctor,\nLast night I was getting chills, feeling more cold than usual and lightheaded and a lot of burping. Maybe like every 30 minutes or less or so feel more chills running down my body and chest feeling bit weird like I am starting having trouble breathing then goes back to normal and repeats, with weird feeling like chills down my left and right lungs or left and right upper chest. Also, my heart was pumping fast. Also, some minor coughs were there since seven days ago, still here. I have white mucus and have not gotten yellow yet.\nI took medicines yesterday but today I got severe cold and flu medicine with a pain reliever, the chills did not go away. Then today, I called the doctor on the phone and told him what happen last night and the same thing happened this morning too. I had minor coughs, feeling lightheaded, feel like maybe cannot breathe or something, and a lot of burping. I told him the burping issue was going on for at least two years, but somehow this time I am feeling lightheaded. He just gives Pepcid, a try maybe GERD. I ate that today still feeling chills now and still burping a lot.\nRight now, still some chills on arms, with breathing issue or something makes my chest feel weird and arm sometimes. So, should I be worried? I do not think I have a fever now but do not feel hot on the forehead? Was it GERD or flu, it is Coronavirus or something else? I hope it is not Coronavirus.\nI am 21 years old and weigh around 110-115 kg.",
+    "reference_doctor_response": "Hello,\nplease answer the following:\nAny travel history in the last one month? Any use of airports? Any fever, have you checked the temperature? Any cough? Any mucus or phlegm? How is your sleep? Is there any malaise or body aches or weakness?"
+  },
+  {
+    "scenario_id": "coviddlg_5_56058274",
+    "source_record_id": "5",
+    "patient_query": "Hi, I am Chaitanya, 27 years old. I use to swim daily in morning. Does COVID-19 spreads through water ? What precautions should I take to avoid infection?",
+    "reference_doctor_response": "Hello and welcome to Ask A Doctor service.\nI have reviewed your query and here is my advice.\nFirst few cases were suspected to have spread from food. However human to human spread is mainly from air droplets.\nI would suggest you to refrain from swimming for sometime. Although the virus will get killed in swimming pool if it doesnot find host for more than few minutes.\nOther precautions include to avoid social gatherings, wash hands frequently with soap and water, cover face with mask, stay home during sickness, avoid travel.\nHope it helps. Let me know if I can assist you further.\nDr Vaishalee"
+  },
+  {
+    "scenario_id": "coviddlg_6_ccf8998d",
+    "source_record_id": "6",
+    "patient_query": "What is the treatment for Covid-19?",
+    "reference_doctor_response": "Depends on severity. COVID-19 pandemic at this time, so a doctor on video may consult by video instead of requiring an in-person visit. Flu-like symptoms can be from a strep throat infection, a cold or influenza, or from some other cause like COVID-19. Usually, a person calls the doctor if the symptoms are bothersome, serious, recurrent, or persistent. COVID-19 testing depends on local availability."
+  },
+  {
+    "scenario_id": "coviddlg_7_360a1355",
+    "source_record_id": "7",
+    "patient_query": "Criteria for COVID test?",
+    "reference_doctor_response": "Real vs. textbook. Real-life criteria is different because we don't have enough tests, supplies, or medical staff around the world at this time (March 2020). Textbook criteria are suspected COVID in hospitalized persons or in those with underlying medical conditions; or persons who got symptoms less than 14 days after (1) contact with a suspect or confirmed COVID patient or (2) travel through high-risk COVID area."
+  },
+  {
+    "scenario_id": "coviddlg_8_192a41b4",
+    "source_record_id": "8",
+    "patient_query": "I have covid 19 symptoms?",
+    "reference_doctor_response": "Without any details it's impossible to say."
+  },
+  {
+    "scenario_id": "coviddlg_9_08a8c9e2",
+    "source_record_id": "9",
+    "patient_query": "Do I have covid 19?",
+    "reference_doctor_response": "Without any details it's impossible to say."
+  },
+  {
+    "scenario_id": "coviddlg_10_2f0765eb",
+    "source_record_id": "10",
+    "patient_query": "Is vomiting and diarrhea a symptom of covid-19?",
+    "reference_doctor_response": "COVID-19 symptoms. Nausea, vomiting, and/or diarrhea occur fairly frequently early in the infection, but are rarely if ever the only symptoms. If cough and fever don't develop within a day or two after vomiting or diarrhea, probably it isn't COVID-19."
+  },
+  {
+    "scenario_id": "coviddlg_11_bfdd96b8",
+    "source_record_id": "11",
+    "patient_query": "Anxiety because of the covid 19 news?",
+    "reference_doctor_response": "Break. At 39 your risk for severe infections is very low. A strategy that I recommend is taking in information daily, but get away from it. Practice prudent precautions. In my off times away from ER (still practicing front line ER) I focus my mind on my cooking, planning my garden, engage with my friends and loved ones and read."
+  },
+  {
+    "scenario_id": "coviddlg_12_e26bc127",
+    "source_record_id": "12",
+    "patient_query": "Is the coronavirus 229E the same as covid-19?",
+    "reference_doctor_response": "CoV229e is one of several coronaviruses that cause common colds. Biologically related to SARS-CoV-2 (the cause of COVID-19), but different viruses."
+  },
+  {
+    "scenario_id": "coviddlg_13_ba0baa3c",
+    "source_record_id": "13",
+    "patient_query": "Can I get a covid 19 test?",
+    "reference_doctor_response": "Seek care right away if difficulty breathing, other severe symptoms.\nSeek testing if sick, PLUS known Covid-19 contact, or travel to high risk country, or been in facility treating people with Covid-19, or severe pneumonia of unknown cause. Call 0800 029 999 for test. If sick or possibly exposed (not both), stay home. Seek consultation if sick. If known exposure & not sick, self-isolate 14 days."
+  },
+  {
+    "scenario_id": "coviddlg_14_1e6bd91a",
+    "source_record_id": "14",
+    "patient_query": "Where can I be tested for covid 19?",
+    "reference_doctor_response": "your local doctor, local health department, we have no idea here what your set up is where you live."
+  },
+  {
+    "scenario_id": "coviddlg_15_a680ac31",
+    "source_record_id": "15",
+    "patient_query": "Am I at risk for COVID-19 in the United States?",
+    "reference_doctor_response": "COVID infections will likely pick up over the next few weeks in US. Avoiding travel and following hand washing recommendations are probably the most important prophylactic measures."
+  },
+  {
+    "scenario_id": "coviddlg_16_1d853721",
+    "source_record_id": "16",
+    "patient_query": "My dad last week was vomiting and had diarrhea now this week it has turned into runny nose and a cough...no fever....any chance it\u2019s Covid-19?",
+    "reference_doctor_response": "Symptoms of COVID-19 are usually the same as a cold or the flu, with diarrhea being uncommon.\nThe COVID-19 infection is worldwide. The goal is to keep people separated so that the clinics and hospitals are not overwhelmed. Patients with medical symptoms should see their primary care doctor on VIDEO or by PHONE, and get instructed to go to a clinic or ER only if not treatable by video or phone."
+  },
+  {
+    "scenario_id": "coviddlg_17_0f5c232d",
+    "source_record_id": "17",
+    "patient_query": "11 year old has a cough, runny nose, headache,earache, no fever. Is this COVID-19?",
+    "reference_doctor_response": "The symptom pattern is not specific to one agent.\nIt suggests a cold and ear infection. Kids have been among those least affected by Covid-19 . Only proper screening and testing could confirm or exclude this or any other agent. Parainfluenza, rhinovirus, or RSV would be more likely."
+  },
+  {
+    "scenario_id": "coviddlg_18_07b44f19",
+    "source_record_id": "18",
+    "patient_query": "I am getting headache at night. Been battling with a sore throat and post nasal drip. No fever. Cough only slightly at times. I went for laproscope and removal of my fallopian tubes on 2nd March. All this started after that. Must i test for covid 1o?",
+    "reference_doctor_response": "In brief: Unlikely\nNot at this point.\nTreat what you have currently symptomatically. Stock up now whilst not yet on lockdown. I don't feel that you qualify for a Covid test right now. Keep posting your questions."
+  },
+  {
+    "scenario_id": "coviddlg_18_77871cfb",
+    "source_record_id": "18",
+    "patient_query": "True or false? Anyone infected with COVID-19 start have diarrhea and increases the chances of death compared to person who just start respiratory symptoms, why?",
+    "reference_doctor_response": "In brief: Data\nFrom Data from China there has been association between worse infection and diarrhea.\nThe seems to be a worse inflammatory response associated with people who have diarrhea."
+  },
+  {
+    "scenario_id": "coviddlg_19_633a32bf",
+    "source_record_id": "19",
+    "patient_query": "Do people with the Covid coronavirus get any diarrhea? If yes, how bad is the diarrhea, and what portion of infected people start having diarrhea?",
+    "reference_doctor_response": "In brief: Respiratory illness\nCough, fever and shortness of breath are most common sx's.\nPer Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus\u2013Infected Pneumonia in Wuhan, China - JAMA, Wang et al., February 7, 2020 - about 10% of hospitalized patient had diarrhea. This study only looked at people who were so sick that they had to be hospitalized. This is a small study number.\nDoctor:\nIn brief: No\nTo date the process has been a respiratory virus.\nNo gut issues (diarrhea,etc.) are reported so far as part of the symptom pattern."
+  },
+  {
+    "scenario_id": "coviddlg_20_00475670",
+    "source_record_id": "20",
+    "patient_query": "Can Covid-19 be transmitted sexually? Can any coronavirus be transmitted sexually?",
+    "reference_doctor_response": "In brief: Sort of\nIf you are having sex with someone who has Covid-19 you are quite at risk of getting it.\nHigh likelihood if kissing and having intercourse but it may not be transmitted through intercourse but the closeness in an intimate situation like that with someone who is infected gives a high likelihood of transmission."
+  },
+  {
+    "scenario_id": "coviddlg_21_2289d08d",
+    "source_record_id": "21",
+    "patient_query": "Should I shave my beard to reduce my chances of contracting coronavirus / covid-19?",
+    "reference_doctor_response": "In brief: Yes\nThis virus clings to everything especially hairs.\nEither wash your beard a few times a day and spray with alcohol or shave off."
+  },
+  {
+    "scenario_id": "coviddlg_22_10f56b9d",
+    "source_record_id": "22",
+    "patient_query": "I have mild asthma which is well controlled if I were to contract Covid 19 would I experience any difficulties as can\u2019t seem to find much information on asthma patients who have had the Coronavirus many thanks ?",
+    "reference_doctor_response": "In brief: COVID-19 and Asthma\nGreat question. Yes asthma is a chronic lung disease which carries some increased risk with COVID-19.\nGood asthma control along with good handwashwng, social distancing avoiding unnecessary travel along with your young age should keep your risk of complications low. Smoking, hypertension, diabetes, obesity or compromised immune system are also risk factors to be considered."
+  },
+  {
+    "scenario_id": "coviddlg_23_7ab9cc18",
+    "source_record_id": "23",
+    "patient_query": "Is mild intermittent asthma an elevated risk group for Covid 19 complications? If so, should I continue to use my inhalers when it's occasionally necessary or will the steroids in them put me at more risk? Thank you.",
+    "reference_doctor_response": "In brief: Maybe\nBeing over 50 with a medical condition like intermittent asthma makes you at higher risk for any respiratory illness including COVID19.\nIt appears to be less an issue for children and youth."
+  },
+  {
+    "scenario_id": "coviddlg_24_837a7666",
+    "source_record_id": "24",
+    "patient_query": "I read that people taking steroids for asthma are at higher risk for poor outcomes from COVID19. Does this include inhalers containing steroids? Also, is mild intermittent asthma a risk for poor outcomes or only more severe forms of asthma? Thanks",
+    "reference_doctor_response": "In brief: Not quite that way\nPeople with chronic lung problems do worse in a lung disease outbreak.\nFor one specific person... well, there's no way to guess. \"People\" in general do worse if they have UNcontrolled lung disease. That means it's likely that asthmatics using inhaled steroids to give them good disease control will be BETTER OFF than asthmatics who use steroids but still cannot get good control. Be in good control."
+  },
+  {
+    "scenario_id": "coviddlg_25_f43b9c88",
+    "source_record_id": "25",
+    "patient_query": "What symptoms would make you think I do not have COVID-19. I have a bad cold, but got diarrhea twice, so does diarrhea mean it is not COVID?",
+    "reference_doctor_response": "In brief: No\nDiarrhea does not rule out COVID.\nIf you have traveled to endemic areas or met with people that traveled there, you should test if possible."
+  },
+  {
+    "scenario_id": "coviddlg_26_00475670",
+    "source_record_id": "26",
+    "patient_query": "Can Covid-19 be transmitted sexually? Can any coronavirus be transmitted sexually?",
+    "reference_doctor_response": "In brief: Sort of\nIf you are having sex with someone who has Covid-19 you are quite at risk of getting it.\nHigh likelihood if kissing and having intercourse but it may not be transmitted through intercourse but the closeness in an intimate situation like that with someone who is infected gives a high likelihood of transmission."
+  },
+  {
+    "scenario_id": "coviddlg_27_8bb935dd",
+    "source_record_id": "27",
+    "patient_query": "Have read COVID-19 news quoting some experts as saying that we will see more confirmed cases as more tests are performed, but the mortality rate should drop as that happens. Any sign of that yet?",
+    "reference_doctor_response": "In brief: COVID-19 mortality\nDon't confuse actual mortality rate with REPORTED rate.\nThe actual rate probably will remain stable (and likely lower in the US than some other countries, because of sophisticated intensive medical care). But as testing expands and more people with mild symptoms (or no symptoms) are diagnosed, reported mortality will decline; likely happening now, but it may take weeks for data to be known."
+  },
+  {
+    "scenario_id": "coviddlg_28_838a28c5",
+    "source_record_id": "28",
+    "patient_query": "I travelled to Austria on 25 Jan 2020 and returned on 31Jan 2020. My trip included a stopover in Munich. I currently do not show any symptoms listed for coronavirus. Should i get lab tested as a precaution and will this test be covered by the medical?",
+    "reference_doctor_response": "In brief: Hard to say\nThe questions you pose are more appropriate to ask your local physicians and health plans.\nAs a USA based site we have no access to or information about the changing local recommendations for world travel around the globe nor would we know what your plan covers. Find a local health contact & contact your health plan for guidance."
+  },
+  {
+    "scenario_id": "coviddlg_29_c2d91c06",
+    "source_record_id": "29",
+    "patient_query": "For students in dorms living with students from many countries, what extra additional precautions do they need to prevent catching novel coronavirus?",
+    "reference_doctor_response": "In brief: Standard precautions\nCOVID-19 is now official name for the illness caused by the newly discovered coronavirus (COronaVirus Infectious Disease - 2019).\nSo far it is extremely rare in the US (2/12/20). Until and unless COVID-19 becomes common no special precautions are necessary. In any dormitory or group living situation people with respiratory symptoms (colds, flu, etc.) should cover their coughs and wash hands frequently."
+  },
+  {
+    "scenario_id": "coviddlg_30_41f0c676",
+    "source_record_id": "30",
+    "patient_query": "Can taking extra vitamin C every day help prevent you from catching the coronavirus or the flu? If so, how much vitamin C is recommended?",
+    "reference_doctor_response": "In brief: Vitamin C\nWhile getting enough vitamin C in your diet is highly recommended, it has no special ability to prevent coronavirus or flu virus.\nBest preventative measures for these are frequent handwashing and avoiding people with sneezing/coughing/cold symptoms and fevers."
+  },
+  {
+    "scenario_id": "coviddlg_31_62524527",
+    "source_record_id": "31",
+    "patient_query": "Can taking extra steps for self-care (like staying hydrated, getting more sleep) every day help prevent you from catching the coronavirus or the flu?",
+    "reference_doctor_response": "In brief: Yes\nIt helps to keep the body in good shape and good nutrition."
+  },
+  {
+    "scenario_id": "coviddlg_32_e4e97343",
+    "source_record_id": "32",
+    "patient_query": "Last tuesday I had a flu shot and a neumonia shot. I am 68 and male. I had a very sore arm and felt bad the next day in which I had blood drawn for a test. The results showed a high white cell blood count as well as high ANC and AMC. Could these high readings be because of the shots the day before?",
+    "reference_doctor_response": "Hello,\n* The pneumonia shot per se is not responsible for high WBC count, but as you are telling there are soreness and bad feeling at the injection site over arm, there are all possibilities that you have cellulitis or possible abscess formation at the injection site; which will recruit neutrophils at the site and cause secondary rise in WBC count.\n* Primary relief with ice application and secondary management with systemic antibiotics and anti-inflammatory medicines with your doc.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Bhagyesh V. Patel, General Surgeon"
+  },
+  {
+    "scenario_id": "coviddlg_33_9082ae2f",
+    "source_record_id": "33",
+    "patient_query": "My father recently passed over the weekend. His body was fighting an infection along with pneumonia for 1 week. During that time, he would urinate bloody urine into the foley. The doctors said that was completely normal. It was very dark red. Is that normal?",
+    "reference_doctor_response": "Hello,\n* The pneumonia does not give rise to red urine called hematuria.\n* There can be possible causes for red blood cells in the urine as\n- uncontrolled urinary tract infection\n- kidney damage via systemic sepsis\n- abnormal clotting factors or platelet function\n- side effects of drugs\n- dehydration related\n- secondary effects of diabetes\n- others\n* Kindly share all reports if available with you for further discussion ahead and guide in details.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Bhagyesh V. Patel, General Surgeon"
+  },
+  {
+    "scenario_id": "coviddlg_34_17f14e66",
+    "source_record_id": "34",
+    "patient_query": "I have pneumonia and my doctor has me on strong antibodics and albut in my nebulizer. Yesterday after a treatment I spit up fresh blood and I have this second day also. I m on blood thinners and wonder if that may be my problem. I feel better in other ways.",
+    "reference_doctor_response": "HelloAs you explain the situation yes it might be that in pneumonia to have blood with the cough and especially if you take blood thinners do not worry.However of it last for several days than better to talk with your treating doctor for this for safety.RegardsDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_35_6732e64c",
+    "source_record_id": "35",
+    "patient_query": "Hi, my name is XXXX. My grandfather is suffering from pneumonia right now and refuses to go to the doctor because of the price needed to obtain a patented medicine. In Indonesia, it is not hard to find these kinds of doctors that don t want to help people in need. What medicine can you guys recommend for a home treatment?",
+    "reference_doctor_response": "Hello,\nAs you explain the situation, unfortunately, there is no home treatment for pneumonia. I strongly recommend you to go to the hospital as an emergency which is free mostly.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_36_da5dc138",
+    "source_record_id": "36",
+    "patient_query": "I was diagnosed with pneumonia on june 30. I finished taking my antibiotics and cough pills. I still continue to cough sometimes gaging. Shortness of breath and wheezing, I have an inhaler, I am not coughing up anymore phlem. my doctor says to take Mucinex DM. I have finished a bottle. I also have taken robitussin cough medicine. She also sd cough cld last up to 4-6 weeks.",
+    "reference_doctor_response": "Hello,\nThese symptoms last for 3-4 weeks. So no need to worry if fever is not there.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Kaushal Bhavsar, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_37_972f04b1",
+    "source_record_id": "37",
+    "patient_query": "Hi my husband has been diagnosed with pneumonia and given roxithromycin, he s had a heart transplant 4 yrs ago he is very tired hardly eating or drinking pretty larthargic to be honest should I be taking him to hospital we are now on day 3 on the antibiotics with no improvement what would you suggest?",
+    "reference_doctor_response": "Hi,\nYes, you should definitely take him to the hospital, seeing that he is especially vulnerable as a heart transplant recipient.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Anders Mark Christensen, General Surgeon"
+  },
+  {
+    "scenario_id": "coviddlg_38_cbc822de",
+    "source_record_id": "38",
+    "patient_query": "I ve been diagnosed with pneumonia (I am 63) on Monday evening. My daughter (31) is exhibiting the same symptoms - went to her doctor and currently taking Z-Pak. I was prescribed azithromysin 500 mg for 5 days. I was concerned since we were experiencing the same symptoms. We spend time together but she is married and lives in town. I am married and my husband is not experiencing any symptoms. Totally confused. Is there a way to know if you have a viral or bacterial pneumonia. I have had all kinds of different blood work done, chest x-ray, - can they tell? How long is pneumonia contagious? She has 2 children and we re trying to figure out if it s okay to have someone else watch the kids. They are not sick at this time.",
+    "reference_doctor_response": "Hello,\nUsually, he is contagious one week before treatment and until three days after treatment.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_39_b55064ef",
+    "source_record_id": "39",
+    "patient_query": "18 month old with chronic running nose And cough since August 2014 diagnosed with bacterial infections Took antibiotics did not get better. January 26th and chest x-ray found pneumonia. Took antibiotics did not get better with runny nose and coughing. 10 weeks later another chest x ray still found pneumonia. Has been taking clindamyacin For 11 days now does not seem to be getting better. And just now been prescribed proventil and Qvar. But if she is suffering from bacterial infection with those inhalers make it worse",
+    "reference_doctor_response": "Hello,\nAccording to the history you prescribed he needs a chest CT to evaluate better the situation.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_40_e4faed7a",
+    "source_record_id": "40",
+    "patient_query": "My 19 year old son was diagnosed with pneumonia 5 months ago and was given antibiotics but with minimal results. Unfortunately he still suffers from the same symptoms but since he is in the military he refuses to go back to the doctor for fear of reprisal. His cough is still deep and his energy is low. Are there any long term repercussions for his lungs if he continues without treatment.",
+    "reference_doctor_response": "Hello,\nAs you explain the situation I strongly recommend you to send him to the doctor for a re-evaluation of the situation.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_41_5eb340c7",
+    "source_record_id": "41",
+    "patient_query": "I was diagnosed with pneumonia 9 days ago. I had been sick a week before that. i get better, then it seems to come back. Now I have a runny nose (which i didn t have before) and I still have a tickle. 1 day good, 1 day bad, 1 day good. etc. Why the runny nose? what does the tickle signify? I am a singer. Got get well by Sat. this is tues.",
+    "reference_doctor_response": "Hello,\nAs you explain the history you don't have to worry you are in the phase of improvement just so correctly the treatment.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_42_eef88823",
+    "source_record_id": "42",
+    "patient_query": "My son has been diagnosed with pneumonia, and started a five day treatment today. He is 11 years old and very lean almost under weight. He hasn t been eating well this week and coughing is pristant as of today. I believe he should not go on the ice. He does play hard. can I get your opinion?",
+    "reference_doctor_response": "Hello,\nAs you explain the history for giving you a correct opinion I should see his chest X-ray and blood tests.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_43_7be9c3c6",
+    "source_record_id": "43",
+    "patient_query": "My mom had pneumonia, bronchitis, the flu and a fungal infection in her lungs. when I brought her to a local hospital she was intubated and had to be ambulance two hours away to a hospital that had a bed for patients on a ventilator. she was on a ventilator for three days and they discovered the fungal infection at the hospital. she was there for a total of 15 days. when I brought her home she was given a home health physical therapist, Home Health occupational therapist, home health nurse to help me take care of her she is still having quite an issue with breathing she can do only so much and gets out of breath, does anyone have any ideals or respiratory Rehabilitation or any help they can offer so that my mom can breathe easier to be able to walk and do what she did prior to this illness thank you so very much.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nSpirometry exercise would be better for her and anti-fungal treatment should be done with other bronchodilator medication and supportive Rx.\nHope I have answered your query. Let me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_44_cf3718d9",
+    "source_record_id": "44",
+    "patient_query": "I HAD SUFFERED WITH HARPEZ AND PNEUMONIA. I HAD TAKEN ZOVIRAX INTRAVENOUS DEPOMEDROL,TRICOT XYLOCAINE AND FINALLY SEFTUM 500 MG. THE ERUPTIONS AND IRRITABLE SKIN IN GROIN AND ARM PITS. MY FACE LOOKED I WAS OLDER THAN MY AGE. ONE DAY OUT OF A MIRACLE I HAD FORMULATED MY OWN DRUG WHICH HAS SAVED ME. THE DRUG IS POWDERED AMMOXYCILIN 500mg, SEFTUM500mg, ALTHROCIN 500 mg, CIFRAN 500mgIN RIGHT PROPORTIONS. I APPLIED TO MY GROIN, FACE, ARMPITS. ALSO LIKE HOMEOPATHY I TRIED TAKING ONE MILLIGRAM OF THIS MIXTURE RUBBED ON EPIGLOTTIS. MY LIFE STYLE HAS CHANGED COMPLETELY AND WOULD LIKE TO RECOMMEND TO THIS ENTIRE WORLD THAT THIS IS A MIRACLE DRUG THAT CAN KEEP IN ABEYANCE MANY DISEASES OF THE WORLD. NO SIDE EFFECTS. EXCELLENT HEALTH, LOOKING 30 YEARS YOUNGER WITH NO DAMAGE TO SKIN AND ANY SIDE EFFECTS, B.SHANKAR SHARMA, MAIL ADDRESS YYYY@YYYY",
+    "reference_doctor_response": "Hello,\nAs you explain the long history you should absolutely believe in your treating doctor and follow his instructions.\nHope I have answered your query. Let me know if I can assist you further.\nTake care\nRegards,\nDr Jnikolla, Pulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_45_0a56c2c5",
+    "source_record_id": "45",
+    "patient_query": "Hi, I m a 55 yr old white female, 5`4 , 180 lbs. I had childhood asthma and bronchitis, and were given steroids frequently. I seemed to grow out of it at age 17. During the last 14 yrs I ve developed Fibromyalgia/Chronic Fatigue, RA, for 14 months my SED rate stayed at 53-108 and they could not find out why, Cushing s Syndrome, neuropathy of the feet, and most importantly - Hypogammagobulinemia. I rec d IGG iv s monthly for 4 yrs, then lost insurance 6 yrs. ago. I m disabled and on Medicare, I haven t rec d IV s in 6 yrs. During that time I ve had pneumonia 17 times, once was septic pneumonia, constant sinus problems, PCP infection and a rare form of arthritis associated with the hypo (the Dr. couldn t tell me the name of it). I have contacted Medicare, foundations and pharm companies trying to get help to start treatment again. Reaching out to any possible help has been met with apathy and no one would try to point me in the right direction. I m really worried and would like to know my chances of surviving if I can t get the IGG treatments. Thank you very much for your time.",
+    "reference_doctor_response": "Hello,\nThe cause of chronic pneumonia is mandatory to be evaluated here with culture of bronchial lavage fluid, CT scan of the thorax and other supportive evaluations.\nUnless the root cause is identified, one cannot get the complete management chart.\nHope I have answered your query. Feel free to post further doubts.\nThank you.\nRegards,\nDr. Bhagyesh V. Patel, General Surgeon"
+  },
+  {
+    "scenario_id": "coviddlg_46_ae6b35d5",
+    "source_record_id": "46",
+    "patient_query": "The reading of my chest x-ray states that there are hazed and confluent densities seen in the left upper lung field. The rest of the lungs are clear. The heart is not enlarged. The rest of the included structures are unremarkable. I am very much worried because the impression states that I have MINIMAL PTB, LEFT WITH PNEUMONIA. Please advice me on what to do best as I fear this might affect my application for renewal of contract.",
+    "reference_doctor_response": "Hello, For Tuberculosis, AKT needs to be started. So confirm tuberculosis by sputum AFB stain and culture. If tuberculosis confirmed, then AKT should be started. And it is to be taken for around six months. Provide reports if available. Hope I have answered your query. Let me know if I can assist you further. Regards,Dr. Parth Goswami"
+  },
+  {
+    "scenario_id": "coviddlg_47_36ce0a8b",
+    "source_record_id": "47",
+    "patient_query": "my mother has CRE/resistant klebsiella pnuemoneae(excuse the spelling) She is allergic to most antibiotics,sulfa, & penicillin. She has been treated five times obviouly they haven t worked in full! She easily goes anaphylactic! mid way through treatments. Last trtmt. was 7 days ago. 1st day , IV Ertapenem 1mg and litocane, prior to trtmt. she premeds w/ 50 mgs oral benedryl,1 hour cooktime prior ttrtmt.there was to be an additional 9 doses IM and on 6th dose went into shock. She is being readmitted in a.m. for another attempt she is trying oral doses of colodial silver. HELP WHAT TO DO? hOW LONG CAN THIS GO ON BEFORE SHE DIES? wHAT ARE THE SYMPTOMS OF DEATH DUR TO cre?",
+    "reference_doctor_response": "Hi,\nIn such conditions we recommend another class of antibiotics but in the survey of the allergologist who should monitor closely the patient's situation.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla,\nPulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_48_8886b209",
+    "source_record_id": "48",
+    "patient_query": "I was given amoxycillin for a chest infection and did not improve after 48 hours, therefore I went back to the GP who then gave me Clarythmomycin as it resulted in pneumonia. I have been off work for 3 weeks now and feel completely washed out and exhausted. I had a chest x-ray which was clear, but was given an inhaler temporarily as I was out of breath and wheezy. I still have an incredible amount of phlegm which has now changed from brown to sometimes green to clear. Unfortunately, for last 3 days, my trachea is extremely bruised to touch and feel as if someone is pressing my windpipe. Although my tonsils aren t swollen, my ear hurts deep inside. I have had to start taking paracetamol again this week as feel weak, wobbly and feel as if I am going backwards again instead of improving. I am 45 years old. Non-smoker.This is the 3rd time I have had pneumonia in 18 years. I am reasonably fit and healthy, and I don t suffer from colds normally, but whenever I come down with something, I seem to suffer with it. How long does it take to get back to normal? Are the trachea symptoms part of the initial pneumonia symptoms or would I need to see the GP again. I am feeling extremely fed up of generally feeling unwell. I am taking a tonic (Metatone) and drinking and eating healthily. Basically, is it normal to feel this unwell for so long.",
+    "reference_doctor_response": "Hi,\nYes, it might be that after the pneumonia the recovery time lasts up to one week however I recommend you to do a chest CT to see if the pneumonia has gone completely.\nHope I have answered your query. Let me know if I can assist you further.\nRegards,\nDr. Jnikolla,\nPulmonologist"
+  },
+  {
+    "scenario_id": "coviddlg_49_be73e21b",
+    "source_record_id": "49",
+    "patient_query": "I was diagnosed with pneumonia and pleurisy Friday 6/22/18.  Dr gave me Azithromiacin and 800mg of ibuprofen .  That was 4 days ago.  Azithromiacin has one pill left, and i no longer take the ibuprofen as not needed.  To date, I take Sudafed PE and Robitussin DM with expectorant & suppressant.  Every 4 hours when the meds wear off, my fever returns with body aches, chills, headache, and coughing. I continually cough up flem, and when lying down need to clear my throat every 30 seconds. I'm also bloated and get air bubbles under my ribs that are painful.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\n* As far as my clinical experience is concerned, the intensity of the symptoms are not under control with oral antibiotics.\n* In our clinic, I recommend the patient to get hospital admission, start intravenous antibiotics, broncho dilators and other supportive measures to control the same. Do give me further chance to assist in future.\nHope I have answered your query. Let me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_50_3a167983",
+    "source_record_id": "50",
+    "patient_query": "I ve had symptoms of cough, headache, stuffy nose, fatigue, and sore throat for 4 days. I know these are typical of common cold. However, once before (18 months ago), when I just tried to ride it out, I developed pneumonia and was in hospital for several days. Are there any precautions I can take now to prevent this from getting complicated? Thanks.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.\nI have reviewed your query and here is my advice.\nYes, you are right. If you don't pay attention in common cold, it can complicate as pneumonia. So follow these steps for better symptomatic relief in common cold.\n1. Drink plenty of fluids orally and keep yourself hydrated.\n2. Do warm water gargles and steam inhalation 4-5 times a day.\n3. Avoid cold foods like ice cream, cold drinks etc.\n4. Take treatment for common cold regularly.\n5. Watch for persistent fever, chest pain, Yellowish green expectoration, breathing difficulty etc. If any of these symptom appears then immediately get done chest x ray.\n6. Avoid smoking and alcohol if you have these habits.\nHope I have answered your query.\nLet me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_51_66ca5279",
+    "source_record_id": "51",
+    "patient_query": "My sister, age 72, and living alone drove herself to an emergency room at 4:00 a.m. with temperature of 101+, chills and a little dizziness. They diagnosed her with pneumonia. She has COPD and uses inhalers and oral meds. I am concerned because she just told me she is extremely tired and has been under a lot of stress due to move from home of 45+ years, family concerns and loss of husband 2 years ago. She had hip replacement three months ago. I live an hour and a half away and am wondering if I should drive to her city and check on her. She does have a son and a neighbor friend looking in on her.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nShe is already suffering from COPD (chronic obstructive Pulmonary disease). And pneumonia can be severe in already compromised lungs. So pneumonia in COPD patients should be treated promptly. And hence she needs hospital admission, Intravenous antibiotics, anti pyretic, Intravenous fluids and other supportive drugs. So better to admit her and start appropriate treatment.\nHope I have answered your query. Let me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_52_51db222c",
+    "source_record_id": "52",
+    "patient_query": "What is a right central pneumonia? My diagnostic x-ray report states there are hazy densities in the right perihilar and paracardiac areas; trachea is midline; cardiac sillhouette is not enlarged; hemidiaphragms, costophrenic, sulci and bony thoracic cage are unremarkable. I don t understand it.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nAccording to the chest X-ray results, this is an infection of the lung tissue. Don't worry. In this case, antibiotics are given. Consult your doctor.\nRegards."
+  },
+  {
+    "scenario_id": "coviddlg_53_1564f38c",
+    "source_record_id": "53",
+    "patient_query": "Hi, My uncle has been diagnosed with liver cancer and he is in the last stage. After the first chemotherapy he has been admitted to hospital due to pneumonia. Is he again diagnosed with lung cancer? And what are the chances of getting cure? What treatment you would like us to get it done.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nThough this question requires all reports as scanned copy to be evaluated, with provided data I can suggest that\n- Any of the treatment would be supportive only for advanced case of liver cancer, it is not going to be curative.\nThanks."
+  },
+  {
+    "scenario_id": "coviddlg_54_e0e34982",
+    "source_record_id": "54",
+    "patient_query": "I have been on methadone for approx. 5 years now at a dose of 30mg taken 4 times daily. This has not only stopped any unpleasant withdrawl symptoms but has also offered considerable relief in easing chronic pain from a severe back injury 11 years ago. For the first 3 years of taking the medication I found that while it was effective in these areas their was an exceptional side effect in that it absolutely obliterated any interest in sex or even the ability to physically have sex. Also I found that I had next to no energy, making many things I used to enjoy fall by the wayside which in turn led to severe depression. After extensive talks with my Doctor I was sent for blood analysis and it was found that my level of testosterone was so low it barely registered. I was then put on a 3 week cycle of injections of 2mls of Delatestryl and for the past several years I have been the person that I used to be (it gave me my life back). Know I have been given a new Doctor at the clinic I attend and he has informed me that he is only there to prescribe methadone and will not be responsible for any other prescriptions. I do not have a family doctor and our emerg has said that this falls outside their domain. The walk in clinic treats every individual that I know so badly that their is no doubt in my mind that they will refuse to continue this presciption. (to give you some perspective on our walk in clinic - I went their several mnths back with sever pneumonia and the Doctor looked at my chart once and told me that I would get know %$# narcotics from him and to leave immediately) Any suggestions on how to get across to my knew methadone Doctor (who has only been in prescribing methadone for 2 months) just how much this would severely negatively impact my life?",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.\nI have reviewed your query and here is my advice.\n* The pneumonia management depends upon the symptoms which are not narrated here precisely.\n* The Methadone is known to cause long terms side effects over liver, kidney and other body systems, which should be discussed with the   treating physician.\nAwaiting for the symptomatic details to guide further.\nHope I have answered your query. Let me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_55_b2b504f8",
+    "source_record_id": "55",
+    "patient_query": "My daughter is 11 years old she has has pneumonia she has been sick since January 3rd symptoms keep changing. she is up at night itching all over her upper torso, head, and ears. She has major headache and abdominal pain.. she is very upset and crying because this is going on way to long and she has seen many doctors with no relief any suggestions. Tried most itching products what could be causing the head pain and stomach pain. they check her today for appendicitis",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nAccording to the history it might be a viral situation or an allergy.  Don't worry so much she is under medical control.\nRegards\nDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_56_56b79300",
+    "source_record_id": "56",
+    "patient_query": "I was given a steroid shot at 10am this morning when it was discovered that I have potential pneumonia. I was also proscribed an inhaler and a strong antibiotic, both of which I am now actively taking as directed. The Dr offered a cough syrup with codeine for assistance with sleeping through the symptoms that have been interfering with my ability to sleep, which I declined due to being someone who never takes medications at all and fear of having so much in my system at once. The Dr. clarified that Nyquil would be just fine if needed and if I m more comfortable with. I m having some anticipated potential insomnia from the steroid, and some heart palpitations, and I have an irregular heart palpitations to begin with. I feel inclined to take the Nyquil to ensure I get desperately needed sleep, but am concerned with all that is on board, etc. Definitive guidance would be so greatly appreciated, thank you in advance!",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.\nI have reviewed your query and here is my advice.\n* The Nyquil with its components help to relieve congestion, body ache, allergy related uneasiness.\n* It is not a substitute for steroid, but will help definitely in your case for symptoms control.\nWish you fine recovery.\nTake care."
+  },
+  {
+    "scenario_id": "coviddlg_57_fc1b3bdb",
+    "source_record_id": "57",
+    "patient_query": "My 62 year old sister is currently hospitalized for pneumonia that was dx after foot surgery related to a fall. She had Breast CA 8 years ago. Currently taking Tamoxifin. BRCA II gene. 3 sisters also with gene mutation and hx of breast CA. Youngest sister passed away from recurrance of Breast CA. (Mets to lungs, liver and bones.) Hospital ruled out blood clot in lung. Dx with pneumonia. Should CT scan be done since she has has a long standing cough and multiple bouts of pneumonia.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.\nI have reviewed your query and here is my advice.\nYes, she can safely do the chest CT. There is not any contraindication of doing it in pneumonia.\nRegards,\nDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_58_78eb6422",
+    "source_record_id": "58",
+    "patient_query": "Hello, I have had a chest infection about once a quarter for the last year and a half . I was diagnosed with asthma not long ago as well as having developed pneumonia for the first time in the past week. What could be causing such frequent illness? I have generally been a healthy person for all of my life. Sick maybe once every four years.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nRecurrent chest infections in asthma patients can cause bronchitis. So better to consult pulmonologist and get done clinical examination of respiratory system and PFT (Pulmonary Function Test). PFT will not only diagnose bronchitis but it will also tell you about severity of the disease and treatment is based on severity only. You will mostly improve with inhaled bronchodilators (Formoterol or Salmeterol) and inhaled corticosteroid (ICS) (Budesonide or Fluticasone). Don't worry, you will be alright with all these.\nHope I have solved your query. I will be happy to help you further.\nWish you good health!\nThanks."
+  },
+  {
+    "scenario_id": "coviddlg_59_72ce4ebe",
+    "source_record_id": "59",
+    "patient_query": "How many tablets of Levofloxoacin would it take for a older person who is be told he is just coming down with pneumoria (he already has taken 4 pills & I am to give him another at 4 oclock, the reason I am asking this question is he had a fall & broke his hip but seem to have confusion & I had the doctor give him medicine for the confusion, but can not start it until he finish 6 more pill, thank you for any help you can give me.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nLevofloxacin is generally advised once a day. It's very effective for pneumonia. The dose is generally to be taken once a day for arrest 10 days. This can be up to 14 days for some. patients.so yes give him one tablet daily for 6 more days.this hopefully would be enough for his pneumonia.\nHope I have answered your query. Let me know if I can assist you further."
+  },
+  {
+    "scenario_id": "coviddlg_60_85267ee9",
+    "source_record_id": "60",
+    "patient_query": "My son is 4 years old. At the age of six months he suffered from pneumonia.since then he has problem of coughing at the interval of 1 to 2 month. The doctor provided bactoclav and beta2 cough syrup till he became 2 years old. But there is no any improvement so the doctor refered budecort 200mcg/dose 2 puff at a time twice a day n also a nasal spray beclometason dipropionate bp 50 micro gram. But still the case is not improve. The frequency of coughing starts almost every months. Please suggest me what could I do now?",
+    "reference_doctor_response": "Hello As you explain the history it might be a gastric reflux present that has caused the pneumonia. Discuss with his doctor. Regards Dr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_61_d5468ef2",
+    "source_record_id": "61",
+    "patient_query": "hi gud day doc.i had this right paracardiac pneumonia last nov.27 2013..and i undergone treatment for 2 weeks... after that.im not able to comeback in the hospital for further check up...about my illness....but every now and then im suffering backpain and chestpain...but i also had an asthmatic condition...how can you help me ...",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nIn my opinion, you should definitely consult pulmonologist for this pain. You will need a chest X-ray and PFT (Pulmonary Function Test). A chest X-ray is needed to rule out recurrence of pneumonia because this can also cause similar kind of pain. PFT is needed to know the severity of asthma. You may need inhaled bronchodilators (Formoterol or Salmeterol) and inhaled corticosteroids (ICS) (Budesonide or Fluticasone). Don't worry, you will be alright with all these.\nHope I have solved your query. I will be happy to help you further. Wish you good health. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_62_77960557",
+    "source_record_id": "62",
+    "patient_query": "I am recovering from pnuemonia. I was thinking that that I tore a muscle coughing but now I am beginning to wonder. On the right side of my chest, under my breast it hurts when I cough. It hurts when I press on it, but when I pinchthe muscles with my fingers I have no tenderness. It hurts as i go to touch my toes. Could I be having a problem with an organ under my ribs ? I have no pain on my left side.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service. I have reviewed your query and here is my advice.\nPneumonia can cause pleurisy (inflammation of pleura) and this can cause similar kind of pain. So in my opinion, you should first get the chest X-ray done. If the chest X-ray is worsening, then your pain is due to pneumonia and you will need higher antibiotics. But if the chest X-ray is improving, then possibility of musculoskeletal pain is more likely. So apply warm water pad on the affected areas. Avoid movements causing pain. Avoid sudden jerky movements of the chest. Take simple painkillers and muscle relaxant drugs like Ibuprofen and Thiocolchicoside. Don't worry, you will be alright with all these.\nHope I have solved your query. I will be happy to help you further. Wish you good health. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_63_a240cf84",
+    "source_record_id": "63",
+    "patient_query": "Dear Sir, good evening, my mother is aged about 58 years and is patient of acute diabetic since last 30 years, she is now in ventillation due to pneumonia in lungs and spreading of infection speticemia all over the body and she is having becoly too. It is almost 14 days on ventilation but there is no progressive result of her ailment. she is surviving on artificial lungs. E.C.G. - SR Respiratory - 28 Oxygen - 84 B. P. - 118/70 Heartbeat - 96 Pulse - 96 Sugar - 130 mg/dl Lungs Pressure - 39 Other organs of the body are working properly and are good in condition till now. What should I do?. What specific treatment should be given to her?. Please help me in this regard. I am in very much need of your help?. Raashid Mustafa, Ranchi, Jharkhand. Mother Name - Shahin Mustafa - 58 years Admitted - Abdur Razzaque Ansari Weavers Hospital fernchizee of Apollo Group of Hospitals. MICU - BED NO - 07",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.If your mother is on a ventilator due to pneumonia, then 1. ET tube sputum for culture and sensitivity 2. Higher antibiotics 3. Monitoring of BP and O2 4. She will improve when best intensivist will see this case  Hope I have answered your query. Let me know if I can assist you further.Regards, Dr. Chandra Shekhar"
+  },
+  {
+    "scenario_id": "coviddlg_64_4fb77e09",
+    "source_record_id": "64",
+    "patient_query": "I was given Doxycycline while in the hospital for pneumonia and took it several days when home. Since March 3rd I have had loose bowels. I took peto-bismol for a week and no help a week ago I started Imodium softgetl and only little help...then I read about probiotics and started taking Ultimate FLORA probiotic 80 billion live cultures.. the question is can I take Imodium also the same day? Thanks",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Imodium is having loperamide. It is not a good drug for diarrhea. So you should not take it. You should definitely take probiotics as they are the first line treatment for diarrhea. Along with probiotics, eat more curd and yogurt. Avoid oily and spicy food. Avoid junk food. Drink oral re-hydration solution (ORS) and zinc tablet. Don't worry, you will be alright with all these. Hope I have answered your query. Let me know if I can assist you further.Regards, Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_65_92b4b989",
+    "source_record_id": "65",
+    "patient_query": "My dr. Did a routine CNBC last week. His nurse called and my blood showed signs of anemia. Ok today his nurse called and the blood they deeper searched on showed: the disease of chronic pneumonia? Ok I do not have hiv/AIDS. My question is she said no cure. My mom died from a chronic infection in her longs acronym Boop. I contacted cdc.gov they put me in touch with center for rare diseases. No cure for mom. Question: the told me Boop was not genetically transferred. This is exactly how my moms lung diseases started. is thimy lung disease genetic? Is it curable? Help please",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Though BOOP (Bronchiolitis obliterans organizing pneumonia ) is serious lung inflammatory condition, 65 - 80% of patients do respond well with corticosteroid therapy and cure. It is the remaining 20% of fatal cases which progress rapidly and have adverse outcomes.So, I do recommend to discuss the case and prognosis in details with his treating physician. Hope I have answered your query. Let me know if I can assist you further.Regards, \u00a0\u00a0\u00a0\u00a0\u00a0Dr. Bhagyesh V. Patel"
+  },
+  {
+    "scenario_id": "coviddlg_66_46219a68",
+    "source_record_id": "66",
+    "patient_query": "My 3 year old son is complaint of stomach pain he also has fever and 1 week before he was diagnosed with pneumonia.he was on amoxicillin.he just finished his antibiotics yesterday and this morning he has fever stomach pain increased heart rate what is causing it",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Maybe pneumonia didn't resolve. You have to change medications. Add Azithromycin, syrup Ascoril thrice and tablet Pantop D twice. Also take Mucaine gel twice. Hope I have answered your query. Let me know if I can assist you further.Regards, \u00a0\u00a0\u00a0\u00a0\u00a0Dr. Chandra Shekhar"
+  },
+  {
+    "scenario_id": "coviddlg_67_48317f67",
+    "source_record_id": "67",
+    "patient_query": "I am positive for Alpha 1 but at this point am not being treated. I developed bilateral pneumonia 4 weeks ago, have been on two rounds of Levaquin, and other than my fever leaving (which was 102 for three days) don t feel any better. My ribs feel like someone punched me, and whenever I cough, I taste copper which I am assuming is blood. It s probably from how hard I cough,. Been to the doc twice, this time added mucinex to the mix to try to loosen things up. Not sure how much longer I can do this! YYYY@YYYY",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Pneumonia causes pleurisy (inflammation of pleura). So chest pain is commonly seen with pneumonia and anti-inflammatory painkiller drugs like paracetamol or ibuprofen should be tried. You can also apply warm water pad on affected areas of the chest. Once your pneumonia is cured, your pain will definitely subside. Mucinex is a good drug for pneumonia. It actually dilutes the secretions and made them easy to cough out. So continue with Mucinex. Hope I have answered your query. Let me know if I can assist you further.Regards, \u00a0\u00a0\u00a0\u00a0\u00a0Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_68_fad5a94e",
+    "source_record_id": "68",
+    "patient_query": "My mother was admitted to St. Jude s last Wednesday with pneumonia. She is 82 and also has COPD and Parkinson s. She was treated with antibiotics and released four days later. She is to continue with antibiotics treatment at her skilled nursing facility for another 7 days. The day after she returned to her skilled nursing facility, she was given a new roommate who has advanced pneumonia and in critical condition. A few days earlier, the doctor at the hospital said that my mother s pneumonia was negative and she was taken out of isolation. Is it dangerous for my mother, who seems to be recovering or has recovered from her pneumonia, to be placed in the same room as a patient with advanced pneumonia?",
+    "reference_doctor_response": "Hello,To be honest, there is a chance of cross infection from one person to another. However, this depends on so many factors and most of the infections, especially bacterial pneumonia, do not transmit easily. If more than one arm distance, the chance is very little and if not too close (like kissing etc.) the chance is further reduced. If two of them are already on antibiotics, as in your case, there is a chance but in the setting what u described, it is extremely unlikely. Hope I have answered your query. Let me know if I can assist you further.Regards, \u00a0\u00a0\u00a0\u00a0\u00a0Dr. Mahboob Ur Rahman"
+  },
+  {
+    "scenario_id": "coviddlg_69_cc19e379",
+    "source_record_id": "69",
+    "patient_query": "My daughter has been sick with the flu for over a week and now has Strep throat and pneumonia. She s saw her doctor, ran some tests and her white blood cell count keeps dropping. They just sent her to the ER. What would cause her wbc to drop? I know there s probably a few reasons, but given this recent background of her health?? Thank you. Very worried mom",
+    "reference_doctor_response": "Hello,Any infection if severe can suppress bone marrow. And this is responsible for low WBC (white blood cells) count. So better to start injectable antibiotics for control of infection. She may need leucovorin injection to stimulate bone marrow for producing WBCs. Once her infection is controlled, she will have a normal WBC count. Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_70_67910726",
+    "source_record_id": "70",
+    "patient_query": "I have been using CPAP machine for a year on pressure 6 with a nasal pillow mask.  I have never had pneumonia in my life.  I am 52 years old and just got my first case of pneumonia (discovered by a CAT scan).  Could the CPAP machine be responsible for causing my pneumonia.  They also found a small 3mm nodule.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Yes, CPAP machine if not properly maintained can cause pneumonia. Actually, there are a lot of things in CPAP machine that can be infected.Things like tubing, mask, and filters etcetera are very prone to infection. So, proper care should be taken to prevent infections from these parts.Better to ask CPAP provider to check all these parts and if infected replace them.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_71_fa4928fe",
+    "source_record_id": "71",
+    "patient_query": "I am a 76 year old female non smoker and non drinker I drink 1 cup of decaf a day . in the past year I have had 3 or 4 bouts of pneumonia one was infiltrated just got bronchitis I have have been treated with Z pack and amoxicillin to taking blood thinners due to Atrial Fibulation. I have a pacemaker I had a pneumonia shot in 2011 .one month after taking the shot I got pneumonia. My brother who is 2 years older had the very same reaction. Our parents were very heavy smoker can this be the cause of all my problems now.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.Pneumococcal vaccine is protective against 23 types of Streptococcus pneumonia bacteria. This bacteria is the most common organism (80% cases) for pneumonia.But there are other bacterias which can cause pneumonia. And in such cases, pneumococcal vaccine is not protective.So you and your brother might be having some other bacterial pneumonia. Second-hand smoking is also a contributing factor to your pneumonia.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_72_00bd4f44",
+    "source_record_id": "72",
+    "patient_query": "How much will this cost? I have had pneumonia 8 time last year. Not 1 specialist could find the bacteria causing this. By December of that year I almost passed away. I had just been dismissed by a hospital and sent home, and 1 hour layer I could barely breathe. I was filling up with fluid and foamy blood was coming out. The paramedics saved me and took me to another hospital The drs. found a serious heart condition, still waiting for open heart surgery. I fill up to my bronchials with fluid every few weeks, it bubbles up and I can hear gurgling. I have no lung problems, such as copd, or emphasyma. What can I do.",
+    "reference_doctor_response": "Hello and Welcome to \u2018Ask A Doctor\u2019 service.I have reviewed your query and here is my advice.As per your history and description, the possibility of end-stage heart disease leads to heart failure is more likely. Surgical treatment is best for this. So try to get it done urgently as soon as possible.Diuretics and other cardiac supportive drugs are advisable until surgery. So better to consult the cardiologist and try for early surgery.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_73_cc92ba73",
+    "source_record_id": "73",
+    "patient_query": "I started a cough in 2009 that was diagnosed as severe bronchitis and then a couple years I had pneumonia twice and now I ve got combination of bronchitis and pneumonia bad cough. I just had a second CT scan one was August 22nd and the other one was October 23rd and I ve never been told a diagnosis before but I happened to see it on my chart What: Hospital Outpatient Visit with LKS CT 1 When: Monday October 23, 2017 7:30 AM (30 minutes) Where: Lakeside Hospital Cat Scan (Lakeside)Diagnosis: Interstitial lung disease.I am going November 27th to discuss this diagnosis I hope I was just told I don t have COPD and then I get this lung disease which I ve never heard of and it doesn t have a very good survival rate I m 63 female.",
+    "reference_doctor_response": "Hello,CT scan is diagnostic for interstitial lung disease (ILD). It can develop after the age of 60 years especially if the patient is having bronchitis and recurrent pneumonia.Yes, you are right about survival. It is not having a good prognosis.But, now day\u2019s newer treatments like Pirfenidone and N acetylcysteine (NAC) drugs are available. So consult pulmonologist and discuss these newer treatments.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_74_2de8daf4",
+    "source_record_id": "74",
+    "patient_query": "Hi, my name is Becky and I exasberated back in Sept with heavy pneumonia in my right lung...... the last few months I have experienced tremendous hair loss and breakage--it is so thin I only have about 1/3 of my hair left but no bald spots. I also have a big lump (or bulge) about 1 inch above the base of my hairline on the back of my head. It goes all across the back of my skull. Any advice? I thought you were here to help....... but hell no....... everybody wants my money....... which I don t have. Thanks alot",
+    "reference_doctor_response": "Hello,After a long chronic disease, there is hair fall present, it is normal but you have a lump, and it is back, maybe it is a lipoma or subcutaneous abscess.You have to investigate all these things like serum biotin level, zinc level, FNAC of that lump after USG. Till then take tablet Astymin M forte for three months at least and biotin-rich foods.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Chandra Shekhar"
+  },
+  {
+    "scenario_id": "coviddlg_75_d5b0ad15",
+    "source_record_id": "75",
+    "patient_query": "Hi,got pneumonia,1month ago.had hemoptasis,positive blood culture x1.have been treated with erythromycin x5days,clindamycin x10 xays,then levaquin,x10days,and prednisone.I have been thru with medications for 5dags,but have had low grade temp(99) a couple of evenings since.I still feel horrible,but my NP hasn t done anything since.I did contact my Pulmanologist today,and waiting for response.is there anymore I can do?really don t want to go back to hospital.thank you",
+    "reference_doctor_response": "Hello,Go for vaccinations given below:- flu vaccine- staphylococcal vaccine - improve immunity Do exercise daily and take citrus food. Rule out diabetes.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Chandra Shekhar"
+  },
+  {
+    "scenario_id": "coviddlg_76_679d22c1",
+    "source_record_id": "76",
+    "patient_query": "My son is 3.3 yrs old , he is allergic to dust and weather conditions , in the recent x Ray report it has been detected that he is having a little congestion in heart which is a symptom of pneumonia and his wbc count is 39000 ( normal range is 4K-11k) doctors have suggested to give ibugesic paracetamol 7.5 ml in case if fever ( he got fits during fever tht lasted few seconds) , frizium for 3 days ,s- mucolite 5ml , Duolin nebuliser and refzil 5ml for infection .is all these medicines are safe ?",
+    "reference_doctor_response": "Hello,These are the best management frame work for your son, which is including antibiotic, decongestant, anti-pyretic, bronchodilator medications needed to cure the issue.Be in regular follow up with your doctor, he will be recovered within some time.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Bhagyesh V. Patel"
+  },
+  {
+    "scenario_id": "coviddlg_77_68221ee4",
+    "source_record_id": "77",
+    "patient_query": "My sister works in a dialysis center and has had pneumonia twice in the last couple of months. This second bout is fairly recent and was again treated with antibiotics. She has not been able to get rid of the cough and in the last few days developed swelling in her legs as well as a rapid heartbeat. Her bp is normal. Her pcp is sending her for a couple of tests, a lexi and I can t remember the other. Any thoughts.",
+    "reference_doctor_response": "Hello,The most possible issue here is systemic manifestation of underlying infection in form of sepsis, side effects of medicines currently used or others.In our clinic, we recommend thorough work up with lab tests and guide to manage in accordance.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Bhagyesh V. Patel"
+  },
+  {
+    "scenario_id": "coviddlg_78_87007871",
+    "source_record_id": "78",
+    "patient_query": "Hi, I got diagnosed with Pneumonia yesterday and have been sent home with antibiotics (amoxicillin and doxycycline) I was just wondering what the risk factors would be if I were to have at least one cigarette? I know it wouldn\u2019t be good for the healing process(will probably slow it down) but is there any serious risk with smoking (ciggerattes or maybe even weed mixed with tobacco?) my doctor at the hospital that diagnosed me knew I smoked and also knew I smoked at least one or two bongs and he said NOTHING when I was leaving about trying not to smoke etc etc?",
+    "reference_doctor_response": "Hello,The tobacco with or without seeds will contribute to bronchi spasm effects and hamper the pneumonia condition to a great extent. In our clinic, we strongly recommend quitting all tobacco items till complete recovery.Hope I have answered your query. Let me know if I can assist you further.Regards,  Dr. Bhagyesh V. Patel"
+  },
+  {
+    "scenario_id": "coviddlg_79_8e4de06c",
+    "source_record_id": "79",
+    "patient_query": "well quick question i had pneumonia back in november2013 and theres a concern i have now i took antibiotics s and got better but im simply not all there in the breathing department. lately ive been waking up with a raspy chest but goes away as day progresses also feel as tho if i had dust in my throat when i manage to get the plegm out its not all colorful its just clear. i get a tight chest feelings sometimes albuterol does help before exerting myself/ excersise.",
+    "reference_doctor_response": "Hello,Since, you are feeling better after albuterol (inhaled bronchodilator), possibility of bronchitis (inflammation of airways) is more likely for your symptoms.Bronchitis is common after lung infection (pneumonia). So, it is better to consult pulmonologist and get done clinical examination of respiratory system and PFT (Pulmonary Function Test).PFT will not only diagnose bronchitis but it will also tell you about severity of the disease and treatment is based on severity only.You will mostly improve with inhaled bronchodilators (formoterol or salmeterol) and inhaled corticosteroid (ICS) (budesonide or fluticasone).Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_80_9574d97b",
+    "source_record_id": "80",
+    "patient_query": "I had a colonoscopy last Wednesday and aspirated. Ended up in the emergency department and diagnosed with aspiration pneumonia.I am on antibiotics now. I am able to breathe better than yesterday but I am still coughing a lot, at times producing dark phlegm. And I am very tired. How long should I expect this to last? Thank you! Dani B",
+    "reference_doctor_response": "Hello,For your pneumonia, complete the course of antibiotic. Sputum culture and examination done if needed to do further work up.If your cough is not expelled properly, then cough expectorant syrup containing Ambroxol plus Terbutaline drug can be prescribed. Kindly attach your reports for giving more comment.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Parth Goswami"
+  },
+  {
+    "scenario_id": "coviddlg_81_db5f0725",
+    "source_record_id": "81",
+    "patient_query": "I have been sick for a week with what I thought was a head cold. My temp keeps going up and I m having trouble breathing. Sinuses are clear, ears are ringing but semi clear but hurt when swallowing along with sore throat. Non productive cough but lungs feel heavy and full. Could this be pneumonia I have developed? I have at it before. I must tell you that I do have asthma. Thank you!",
+    "reference_doctor_response": "Hello,In my opinion, you should definitely consult a pulmonologist. There are two main possibilities for your symptoms. 1. Lung infection (pneumonia).2. Worsening of asthma.So you will need a chest x-ray and PFT (Pulmonary Function Test). A chest x-ray is needed to rule out lung infection. PFT is needed to know the severity of asthma. You may need antibiotics, longer acting inhaled bronchodilators (formoterol or salmeterol) and inhaled corticosteroid (ICS) (budesonide or fluticasone).Don't worry you will be alright with all these.Hope I have answered your query. Let me know if I can assist you further.Regards, Dr. Kaushal Bhavsar"
+  },
+  {
+    "scenario_id": "coviddlg_82_4d78f99f",
+    "source_record_id": "82",
+    "patient_query": "Hello, im a female of 26, heavy smoker with last breath reading of 33 and drink daily. On Thursday I suffered from a severe headache which stayed until Friday evening, as the headache subsided I had a tingling and pressure sensation over head which was also over my nose. I have had no fever, cold etc Yesterday I felt very lightheaded and also after an episode of diarrea this morning am lightheaded again... I have no trouble breathing as such but I suffer from anxiety which I think has been happening alot today. I have had some twinge type pains in my lower chest ( like at the bottom of ribs) for a few days but not necessarily when I breath in and out and when I do cough I have had mucus? Come up, it s almost like it s stuck in my throat also.... I have some head pressure and am getting cold feet every now and then everything I ve checked says pneumonia does this sound like what I could have or could it just be anxiety, I m a little worried...the symptoms separately come and go but my head stays feeling.a little heavy! Chills now and again",
+    "reference_doctor_response": "Hello,According to history, yes, it might be\u00a0pneumonia,\u00a0but you should do a chest x-ray.\u00a0Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Jnikolla"
+  },
+  {
+    "scenario_id": "coviddlg_83_5663484e",
+    "source_record_id": "83",
+    "patient_query": "my mother was diagonesed with multiple myloma after a hip fracture surgery 5 yrs ago by Dr Mathews at St. Stephens. She was treated for the cancer at aiims. the disease has advanced now and as a result she developed aspirational pnemonia . Due to a knock down incident we rushed her to Max hospital on 19th jan and ever since she is on the ventilator all though some antibiotic is being administered there is talk of trichotomy for her. since its nt possible to take her home and in her stage more than anything palliative care is reqd. Max being to expensive is nt sustainable. is stephens the right place for taking care of her? Can she be please adjusted in the ICU there? Also, what wouldbe the cost per day?And who will be the pulmonary expert?",
+    "reference_doctor_response": "Hello,She requires ICU care as per the symptomatic details. Stephens is right place for her; you will get pulmonologist there to take care of the issue.She has to be shifted with ICU on wheels along with ventilator support. Cost there has to be inquired.Hope I have answered your query. Let me know if I can assist you further.Regards,Dr. Bhagyesh V. Patel"
+  },
+  {
+    "scenario_id": "coviddlg_84_e491f5eb",
+    "source_record_id": "84",
+    "patient_query": "I've been recently having more nose bleeds lately. 4-5 times per day to be exact. And I have the worst cough ever that comes with it. Even when I am asleep my nose starts to bleed and I wake up due to the blood running down my mouth. Is this pneumonia?! Or some other illness?",
+    "reference_doctor_response": "Thanks for your question on Healthcare Magic.I can understand your concern. Pneumonia is less likely to cause nose bleeding. Recurrent nose bleeding with coughing are commonly seen with sinusitis. So better to consult ENT doctor and get done clinical examination and CT scan of paranasal sinuses (PNS). Also get done chest x ray for pneumonia. If chest x ray is normal then no need to worry for pneumonia. You may also need endoscopic evaluation of sinuses if CT PNS is suggestive of infection or erosion.Don't worry, you will be alright with all these. Hope I have solved your query. I will be happy to help you further. Wish you good health. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_85_e1bb795c",
+    "source_record_id": "85",
+    "patient_query": "About 6 weeks ago I was diagnosed with PE in right lung and phnemoia in the left lung. I was in teh hospital for 9 days. I am on 20mg of Warfin per day! My blood levels are holding steady at 2.67. Yesterday I had a bit of lower back pain and today it is between my shoulder blades, mostly on my right side. It hurts my back to breathe, swallow, and move. Just sore muscles or could it be something serious with the blood clot? I hate to rush into the doctor if it is nothing....I hope you can help! Thanks",
+    "reference_doctor_response": "Thanks for your question on Healthcare Magic.I can understand your concern. Since you are taking warfarin (blood thinner), possibility of pulmonary embolism (PE) related pain is less likely.Possibility of musculoskeletal pain is more likely. So avoid heavyweight lifting and strenuous exercise. Avoid movements causing pain. Apply warm water pad on affected areas of chest and back. Take painkiller and muscle relaxant drugs like ibuprofen and thiocolchicoside. You will mostly improve with all these in 2-3 days. If not improving then consult doctor. Hope I have solved your query. I will be happy to help you further. Wish you good health. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_86_d621a1c6",
+    "source_record_id": "86",
+    "patient_query": "hello sir this is arvind from lucknow ...sir my mom is suffring from lugs pnemonoia.......she was hospitalized 15 days in hospital but ,,,,still she is suffer from pneumonia.....there are many check up has done ...during ct scan of thorex  a mass of cell is seen in right lungs ......but i get test  a FNAC through USG AND CT GUIDED ... but there is no maligant cell are seen in both FNAC... sir i am very worry about this i am not able to undestand what i  should do for  it......pls give me better advice which hospital will be best for me ......",
+    "reference_doctor_response": "Thanks for your question on Healthcare Magic.I can understand your concern. In my opinion, you should take her to SGPGI, Lucknow and consult pulmonologist there.She needs bronchoscopy, BAL (bronchoalveolar lavage) analysis and TBLB (Trans bronchial lung biopsy).BAL analysis will identify the causative organism for pneumonia. TBLB is needed to rule out lung cancer. Don't worry, she will be alright. First diagnose her and then start appropriate treatment. Hope I have solved your query. I will be happy to help you further. Wishing good health to your mother. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_87_9d52249b",
+    "source_record_id": "87",
+    "patient_query": "Hello Doctor,\nMy mother is an asthamatic and diabetic and has been suffering from pneumonis and being treated an MAdam Mohan MAlviya hospital in Malviya Nagar Delhi. The doctors there have recomended for a HRCT test done for her chest.\nCld u recomend the hospital where we shld go for this test?",
+    "reference_doctor_response": "Thanks for your question on Healthcare Magic.I can understand your concern. HRCT thorax is done at radiology center. So ask your doctor about near by CT scan centers.Usually CT scan is not required for diagnosis of pneumonia.But in some cases if diagnosis is not confirmed or patient is not improving or we suspect TB or ILD (interstitial lung disease) then HRCT thorax is advised.Hope I have solved your query. I will be happy to help you further. Wishing good health to your mother. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_88_e0fafc4b",
+    "source_record_id": "88",
+    "patient_query": "I am 63 years old female a year ago I had bacterial pneumonia and since then I am not feeling normal, also pulmonologist told me I have COPD , I am not smoking since pneumonia have SPIRIVA once a day and ADVAIR 500 twice /day, don feel that is doing any good anymore is there any other medicine that may help me to function more normal? Apparently ANORO ELLIPTA was approved by FDA but is not on Canadian market yet, thank you Zofia",
+    "reference_doctor_response": "Hello Usually in such conditions we recommend Claritromycin twice orally for some days. Regards Dr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_89_8ff76f7c",
+    "source_record_id": "89",
+    "patient_query": "Hello,\nI am a student and dealing with a microbiology assignment.I am given a paitent sample.My paitent is 4 years old\n-diagnosis Pneumonia\n- summary of peresent illness =Recurrant colds, ear infections,and bronchitis.She has been sick for past 3 weeks. Developed a fever yesterday.Also nausia and vomiting,muscle aches.\nPast Medical history= Cystic Fibrosis diagnosed at age 3.\nI did all the lab work and found out that the bacteria causes the disease is Psudomonas aeruginosa. What is the appropriate treatment? Please help.",
+    "reference_doctor_response": "HelloAs you explain cefuroxime or the group of kinolones are the right choice of treatmentRegardsDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_90_466fff00",
+    "source_record_id": "90",
+    "patient_query": "Thank you. My doctor told me after taking an ex-Ray that I have pneumonia on my left side. I am coughing and running fever of 100 to 102 and jumping taking antibiotics amoxicillin-clav 875-125mg twice a day and azithromycin 250mg once per day also one Tylenol extra strength to bring fever down unfortunately fever won t go down just fluctuates - am I doing the right treatment - I am 86 years old",
+    "reference_doctor_response": "Hello Yes i agree with the treatment its ok continue it as the doctor gad prescribed it for you Regards Dr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_91_cc8dbec3",
+    "source_record_id": "91",
+    "patient_query": "My 80 year old wife is home recovering from pneumonia (double) twice in August. Her blood pressure has dropped to 82/44. How dangerous and how can I increase the level. Hospital sent her home with oral antibiotics the first time, no antibiotics the second time. She has been treated for this disease 4 times in past 12 months.",
+    "reference_doctor_response": "Low blood pressure can be a serious and life-threatening problem. Is her blood pressure normally a lot higher than this? If so, then I would suggest urgent evaluation by a physician. Infections can lead to a response called sepsis, and part of this may include a drop in blood pressure, which can be dangerous to her organs. Ensuring adequate hydration is important, as dehydration can cause low blood pressure as well. If she is acting confused, fatigued, or more tired than usual then I would suggest urgent medical evaluation. I hope she feels better."
+  },
+  {
+    "scenario_id": "coviddlg_92_66a8ece7",
+    "source_record_id": "92",
+    "patient_query": "my daughter is 3 and a half...has had pneumonia twice and is currently being treated with seretide inhaler, ventoline exohaler, brozedex and ebastel.  Her chest infection though isn't clearing and her appetitie is low.  She complains of chest pains.  What is the best way to get her treated and cured?   She has used seretide for over 4 months now and it has a steroide and that may have side effects, but the doctor says she must have it to stop the infection, but that isn't working either.",
+    "reference_doctor_response": "Thanks for your question on Healthcare Magic.I can understand your concern. In my opinion, you should consult pediatric pulmonologist and get done bronchoscopy and BAL (bronchoalveolar lavage) analysis.BAL culture and sensitivity report will isolate the causative organism and guide about effective antibiotic treatment. So we can achieve faster recovery from this. Don't worry, with effective antibiotic treatment, she will be alright with 2 - 3 weeks treatment.Hope I have solved your query. I will be happy to help you further. Wishing good health to your daughter. Thanks."
+  },
+  {
+    "scenario_id": "coviddlg_93_1057d34b",
+    "source_record_id": "93",
+    "patient_query": "I HAVE A AUNT THAT IS IN THE HOSPITAL AT ST VINCENTS BLOUNT IN ALABAMA SHE MAY OR NOT HAVE PNEUMONIA SHE HASNT NEVER EAT RIGHT ALL SHE LIVES ON IS COFFEE AND JUNK FOOD AND TOASTER STRUDEL, WHAT CAUSES NAITED HOWEVER U SPELL THAT SHE TRIED TO EAT SOMETHING BUT SHE GOT NASATED.",
+    "reference_doctor_response": "Hello welcome to the health care magic Your concern is regarding pneumonia... In pneumonia cough,  dyspnea,  fever like presentation seen For its diagnosis chest x ray and sputum examination done Hope your concern solved Take care"
+  },
+  {
+    "scenario_id": "coviddlg_94_4e123a89",
+    "source_record_id": "94",
+    "patient_query": "My mom has inclusion body myositis and is 81 years old - she has had the disease for approximately 20 years+ . . .she has been experiencing bouts of pneumonia and congestive heart failure - I am wondering if she will deal with this to the end and if you can tell me what the end will look like?",
+    "reference_doctor_response": "Hello It is hard to predict her clinical picture. Usually it depends on her heart situation and her treating doctor knows better. Regards Dr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_95_39b3ef6d",
+    "source_record_id": "95",
+    "patient_query": "I have had constant chest inf was hospitalised for 4 days said they think phnewmonia out now still on lots of anti biotics and steroids however I'm still sweating have right lower back pain and still really coughing and short of breath. I am MBL deficency and alpha 1",
+    "reference_doctor_response": "HelloYes according to the history it might be pneumonia.Continue the current treatment.RegardsDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_96_0e735a98",
+    "source_record_id": "96",
+    "patient_query": "I have been sick for going on four weeks now. It keeps changing each week from a stuff nose wear i cant breathe at all to my throat hurting and my chest hurting when i breathe or talk. Im constantly falling asleep and keep having a fever on and off all the time. I went to the urgent care a week ago n they said i had the beginning of pneumonia. He only gave me a zpack and some cough medicine. The thing is I feel worse not better at all....what should i do?",
+    "reference_doctor_response": "HelloFirst do a chest x ray and some blood tests such as hemogram CRP ESR than it would be the proper treatment.RegardsDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_97_7ea9ba44",
+    "source_record_id": "97",
+    "patient_query": "I am a family doctor in an outpatient family medicine setting, and the question was raised reguarding treatment for community acquired pneumonia. If reoccurance of infection occurs, after treatment with z pack within 90 days how  should patient be treated.\nWould it be safe to treat again with levaquin as an outpatient?",
+    "reference_doctor_response": "HelloIt depends on the age, commodities, immunity status and the cause why the pneumonia is come back again.RegardsDr.Jolanda"
+  },
+  {
+    "scenario_id": "coviddlg_98_f27d4cfe",
+    "source_record_id": "98",
+    "patient_query": "My husband (age 63 and in great health) was diagnosed with strep pneumonia and spent 3 days in the hospital, he was released with antibiotic Levaquin, after 5 days I had to bring him back to the ER because he spiked a fever of 101. They discovered that the original pneumonia of the right upper lung was almost gone but it had spread to the lower lobe. They discharged him with prescriptions for Azrithomycin 500 mg once a day for 7 days and Amox TR-K CLV 875-125 twice a day for 10 days. The Amox is making him very nauseated and he gets headaches from it. Can he stop taking it after 7 days instead of 10? Generally he is feeling better, no fever since beginning the two antibiotic combination?",
+    "reference_doctor_response": "It will be better if he takes it for 10 days. In order to prevent from nausea and headache you cam give him combination of antacid with antiemetic i.e drugs like PANTOP D OR NUPENTA DSR OR GEMPRAZ DSR ONCE A DAY for the rest of the treatment period."
+  },
+  {
+    "scenario_id": "coviddlg_99_182dd894",
+    "source_record_id": "99",
+    "patient_query": "I was swimming in a pool on 2/15 and I slipped and went under the water unexpectedly and I wound up choking quite badly on some water.  I couldn't catch my breath and I felt like I had water in my lung that I couldn't expel with coughing.  Yesterday I began having a hacking cough and a sore throat (fells like my throats on fire).  Today I feel even worse, my cough is worse and sounds more \"cruddy\" and my throat still hurts, my head is pounding and my body is starting to ache.  Could I be developing aspiration pneumonia?",
+    "reference_doctor_response": "HelloIf the situation has been very short under the water i do not think it might be aspiration pneumonia.RegardsDr.Jolanda"
+  }
+]

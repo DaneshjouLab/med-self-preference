@@ -11,6 +11,7 @@ Expects scenario files with:
 """
 
 import json
+import os
 import argparse
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -19,10 +20,12 @@ from datetime import datetime
 import random
 import re
 
-from anthropic import Anthropic
 from dotenv import load_dotenv
 
 load_dotenv()
+
+# Judge provider: "openai" for gpt-4o, gpt-4, etc.; "anthropic" for Claude models
+OPENAI_JUDGE_PREFIXES = ("gpt-", "o1-", "o3-")
 
 
 @dataclass
@@ -57,12 +60,45 @@ class PairwiseComparison:
     randomized: bool
 
 
+def _is_openai_model(model: str) -> bool:
+    """Return True if model uses OpenAI API."""
+    return model.lower().startswith(OPENAI_JUDGE_PREFIXES)
+
+
 class PairwiseEvaluatorSingle:
     """Evaluates pairs of single-turn medical responses."""
 
-    def __init__(self, judge_model: str = "claude-3-5-sonnet-20241022"):
-        self.client = Anthropic()
+    def __init__(
+        self,
+        judge_model: str = "claude-sonnet-4-20250514",
+        judge_provider: Optional[str] = None,
+    ):
+        """
+        Args:
+            judge_model: Model ID (e.g. gpt-4o, claude-sonnet-4-20250514).
+            judge_provider: "openai" or "anthropic". Auto-detected from model name if None.
+        """
         self.judge_model = judge_model
+
+        if judge_provider is not None:
+            provider = judge_provider.lower()
+            if provider not in ("openai", "anthropic"):
+                raise ValueError(f"judge_provider must be 'openai' or 'anthropic', got {judge_provider}")
+            use_openai = provider == "openai"
+        else:
+            use_openai = _is_openai_model(judge_model)
+
+        self._use_openai = use_openai
+        if use_openai:
+            if not os.getenv("OPENAI_API_KEY"):
+                raise RuntimeError("OPENAI_API_KEY is not set. Required for OpenAI judge models.")
+            from openai import OpenAI
+            self._client = OpenAI()
+        else:
+            if not os.getenv("ANTHROPIC_API_KEY"):
+                raise RuntimeError("ANTHROPIC_API_KEY is not set. Required for Anthropic judge models.")
+            from anthropic import Anthropic
+            self._client = Anthropic()
 
     def load_responses(self, filepath: str) -> Dict[str, Dict]:
         """Load single-turn responses and index by scenario_id. Skips empty generated_response."""
@@ -170,6 +206,23 @@ Ensure valid JSON with double quotes and escaped quotes inside explanations."""
             return None
         return json.loads(json_match.group())
 
+    def _call_judge(self, prompt: str) -> str:
+        """Call the judge model and return the response text."""
+        if self._use_openai:
+            response = self._client.chat.completions.create(
+                model=self.judge_model,
+                messages=[{"role": "user", "content": prompt}],
+                max_completion_tokens=1500,
+            )
+            return response.choices[0].message.content or ""
+        else:
+            message = self._client.messages.create(
+                model=self.judge_model,
+                max_tokens=1500,
+                messages=[{"role": "user", "content": prompt}],
+            )
+            return message.content[0].text
+
     def compare_responses(
         self,
         response_a: Dict,
@@ -185,13 +238,7 @@ Ensure valid JSON with double quotes and escaped quotes inside explanations."""
         prompt = self._create_pairwise_prompt(response_a, response_b, scenario)
 
         try:
-            message = self.client.messages.create(
-                model=self.judge_model,
-                max_tokens=1500,
-                messages=[{"role": "user", "content": prompt}],
-            )
-
-            response_text = message.content[0].text
+            response_text = self._call_judge(prompt)
             data = self._extract_json(response_text)
             if data is None:
                 print("  Error: No JSON found in response")
@@ -407,8 +454,10 @@ def main():
                         help="Path to second model's responses JSON")
     parser.add_argument("--scenarios", required=True,
                         help="Path to scenarios JSON (scenario_id, patient_query)")
-    parser.add_argument("--judge_model", default="claude-3-5-sonnet-20241022",
-                        help="Judge model for evaluation")
+    parser.add_argument("--judge_model", default="claude-sonnet-4-20250514",
+                        help="Judge model (e.g. gpt-4o, claude-sonnet-4-20250514)")
+    parser.add_argument("--judge_provider", choices=["openai", "anthropic"], default=None,
+                        help="Judge API provider. Auto-detected from model name if not set (gpt-*/o1-* -> OpenAI)")
     parser.add_argument("--sample_size", type=int, default=None,
                         help="Number of scenarios to compare (default: all)")
     parser.add_argument("--output", default="pairwise_single_results.json",
@@ -419,7 +468,10 @@ def main():
     args = parser.parse_args()
     random.seed(args.seed)
 
-    evaluator = PairwiseEvaluatorSingle(judge_model=args.judge_model)
+    evaluator = PairwiseEvaluatorSingle(
+        judge_model=args.judge_model,
+        judge_provider=args.judge_provider,
+    )
 
     responses_a = evaluator.load_responses(args.model_a_file)
     responses_b = evaluator.load_responses(args.model_b_file)

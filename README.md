@@ -46,6 +46,24 @@ python generate_conversations.py \
 
 **Output:** Saves conversations as `{model}_{turns}t_conversations.json` (e.g., `gpt-4_2t_conversations.json`)
 
+### 1b. Generate Single-Turn Covid Dialogue Responses
+Create single-turn physician responses from a local Covid dialogue source file.
+
+```bash
+python generate_single_turn_covid.py \
+  --source_file ./COVID-Dialogue-Dataset-English.txt \
+  --num_scenarios 100 \
+  --models gpt-4o \
+  --output_dir ./covid_dialogue_output
+```
+
+**Useful options:**
+- `--source_file`: Path to the local `COVID-Dialogue-Dataset-English.txt` file
+- `--parse_only`: Parse source file and write `scenarios.json`, skip model generation
+- `--shuffle`, `--seed`: Randomized scenario sampling controls
+
+**Output:** `scenarios.json`, `{model}_responses.json`, and `all_responses.json` in your output directory.
+
 ### 2. Run Pairwise Evaluation
 Compare two models' responses to detect self-preference bias.
 
