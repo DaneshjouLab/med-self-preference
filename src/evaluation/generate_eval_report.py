@@ -4,8 +4,14 @@ Generate a human-readable evaluation report from opus_judge.json and model respo
 Output is formatted for easy pasting into a document for PI review.
 """
 
+import argparse
 import json
 from pathlib import Path
+
+
+def _project_root() -> Path:
+    """Project root (parent of src/)."""
+    return Path(__file__).resolve().parents[2]
 
 
 def load_json(path: str) -> dict | list:
@@ -14,9 +20,31 @@ def load_json(path: str) -> dict | list:
 
 
 def main():
-    base = Path(__file__).parent
-    eval_dir = base / "meddialog_output" / "feb_19_eval"
-    responses_dir = base / "meddialog_output" / "feb_19"
+    root = _project_root()
+    parser = argparse.ArgumentParser(description="Generate human-readable eval report")
+    parser.add_argument(
+        "--eval_dir",
+        type=str,
+        default=str(root / "meddialog_output" / "feb_19_eval"),
+        help="Directory containing opus_judge.json",
+    )
+    parser.add_argument(
+        "--responses_dir",
+        type=str,
+        default=str(root / "meddialog_output" / "feb_19"),
+        help="Directory containing model response JSON files",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default=None,
+        help="Output report path (default: eval_dir/eval_report_for_review.txt)",
+    )
+    args = parser.parse_args()
+
+    eval_dir = Path(args.eval_dir)
+    responses_dir = Path(args.responses_dir)
+    out_path = Path(args.output) if args.output else eval_dir / "eval_report_for_review.txt"
 
     judge = load_json(eval_dir / "opus_judge.json")
     claude_responses = load_json(responses_dir / "claude-opus-4-6_responses.json")
@@ -153,7 +181,7 @@ def main():
 
     report = "\n".join(lines)
 
-    out_path = base / "meddialog_output" / "feb_19_eval" / "eval_report_for_review.txt"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     with open(out_path, "w") as f:
         f.write(report)
 

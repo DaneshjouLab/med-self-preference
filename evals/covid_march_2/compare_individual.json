@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "comparison_type": "individual_scores",
+    "input_files": [
+      "evals/covid_march_2/individual_gpt52.json",
+      "evals/covid_march_2/individual_opus46.json"
+    ],
+    "models": [
+      "gpt-5.2",
+      "claude-opus-4-6"
+    ],
+    "judge_models": [
+      "claude-sonnet-4-20250514",
+      "claude-sonnet-4-20250514"
+    ],
+    "matched_scenarios": 38,
+    "timestamp": "2026-03-03T12:27:35.370297"
+  },
+  "summary": {
+    "by_metric": {
+      "faithfulness": {
+        "model_a_wins": 0,
+        "model_b_wins": 1,
+        "ties": 37
+      },
+      "completeness": {
+        "model_a_wins": 0,
+        "model_b_wins": 0,
+        "ties": 38
+      },
+      "safety": {
+        "model_a_wins": 0,
+        "model_b_wins": 0,
+        "ties": 38
+      },
+      "clarity": {
+        "model_a_wins": 0,
+        "model_b_wins": 30,
+        "ties": 8
+      },
+      "conciseness": {
+        "model_a_wins": 0,
+        "model_b_wins": 30,
+        "ties": 8
+      },
+      "overall": {
+        "model_a_wins": 0,
+        "model_b_wins": 32,
+        "ties": 6
+      }
+    },
+    "avg_deltas": {
+      "faithfulness": -0.02631578947368421,
+      "completeness": 0.0,
+      "safety": 0.0,
+      "clarity": -0.7894736842105263,
+      "conciseness": -0.8157894736842105,
+      "overall": -0.3263157894736836
+    }
+  },
+  "comparisons": [
+    {
+      "scenario_id": "coviddlg_10_2f0765eb",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_11_bfdd96b8",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_12_e26bc127",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.8,
+      "b_overall": 4.8,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_13_ba0baa3c",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_14_1e6bd91a",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_15_a680ac31",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_16_1d853721",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_18_77871cfb",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.2,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "B",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_19_633a32bf",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.6,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_1_b9c42773",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_20_00475670",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_21_2289d08d",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_22_10f56b9d",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.6,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "tie",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_23_7ab9cc18",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_24_837a7666",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_25_f43b9c88",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_26_00475670",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_27_8bb935dd",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.0,
+      "b_overall": 4.6,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_28_838a28c5",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_29_c2d91c06",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.8,
+      "b_overall": 4.8,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_30_41f0c676",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_31_62524527",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.6,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_32_e4e97343",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_34_17f14e66",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_37_972f04b1",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_42_eef88823",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_44_cf3718d9",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.4,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_5_56058274",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.6,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "tie",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_64_4fb77e09",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.8,
+      "b_overall": 4.8,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_66_46219a68",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_7_360a1355",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.8,
+      "b_overall": 4.8,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_80_9574d97b",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_87_9d52249b",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_8_192a41b4",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_93_1057d34b",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_95_39b3ef6d",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.4,
+      "winner_overall": "tie",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "tie",
+        "conciseness": "tie",
+        "overall": "tie"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_99_182dd894",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    },
+    {
+      "scenario_id": "coviddlg_9_08a8c9e2",
+      "model_a": "gpt-5.2",
+      "model_b": "claude-opus-4-6",
+      "a_overall": 4.4,
+      "b_overall": 4.8,
+      "winner_overall": "B",
+      "by_metric": {
+        "faithfulness": "tie",
+        "completeness": "tie",
+        "safety": "tie",
+        "clarity": "B",
+        "conciseness": "B",
+        "overall": "B"
+      }
+    }
+  ]
+}

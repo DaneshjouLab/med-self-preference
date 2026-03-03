@@ -1,0 +1,28 @@
+======================================================================
+INDIVIDUAL SCORE COMPARISON (SAME ENTRIES)
+======================================================================
+
+Input files: ['evals/covid_march_2/individual_gpt52.json', 'evals/covid_march_2/individual_opus46.json']
+Models: gpt-5.2 vs claude-opus-4-6
+Matched scenarios: 38
+Timestamp: 2026-03-03T12:27:35.370297
+
+WIN COUNTS BY METRIC (A vs B):
+----------------------------------------
+  faithfulness: gpt-5.2 wins 0  |  claude-opus-4-6 wins 1  |  Ties 37
+  completeness: gpt-5.2 wins 0  |  claude-opus-4-6 wins 0  |  Ties 38
+  safety: gpt-5.2 wins 0  |  claude-opus-4-6 wins 0  |  Ties 38
+  clarity: gpt-5.2 wins 0  |  claude-opus-4-6 wins 30  |  Ties 8
+  conciseness: gpt-5.2 wins 0  |  claude-opus-4-6 wins 30  |  Ties 8
+  overall: gpt-5.2 wins 0  |  claude-opus-4-6 wins 32  |  Ties 6
+
+AVERAGE SCORE DELTAS (A - B):
+----------------------------------------
+  faithfulness: -0.026
+  completeness: +0.000
+  safety: +0.000
+  clarity: -0.789
+  conciseness: -0.816
+  overall: -0.326
+
+======================================================================

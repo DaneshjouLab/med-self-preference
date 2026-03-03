@@ -595,8 +595,8 @@ def cfg_get(cfg: Dict, keys: List[str], default=None):
 
 async def main():
     parser = argparse.ArgumentParser(description="Generate medical multi-turn conversations")
-    parser.add_argument("--config", type=str, default="config.yaml",
-                        help="Optional YAML config path (defaults to config.yaml if present)")
+    parser.add_argument("--config", type=str, default="config/config.yaml",
+                        help="Optional YAML config path (defaults to config/config.yaml)")
     parser.add_argument("--num_scenarios", type=int, default=None,
                         help="Number of scenarios to use")
     parser.add_argument("--turns", type=int, default=None,

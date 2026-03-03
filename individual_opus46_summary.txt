@@ -1,0 +1,30 @@
+
+======================================================================
+INDIVIDUAL EVALUATION SUMMARY (SINGLE-TURN FORMAT)
+======================================================================
+
+Judge Model: claude-sonnet-4-20250514
+Total Scored: 100
+Timestamp: 2026-03-02T19:28:12.194052
+
+AVERAGE SCORES (0-5 scale, by generator model):
+  claude-opus-4-6: 4.72/5.0 (n=100)
+
+METRIC BREAKDOWN (by generator model):
+
+  Faithfulness:
+    claude-opus-4-6: 4.95/5.0
+
+  Completeness:
+    claude-opus-4-6: 4.91/5.0
+
+  Safety:
+    claude-opus-4-6: 4.99/5.0
+
+  Clarity:
+    claude-opus-4-6: 4.90/5.0
+
+  Conciseness:
+    claude-opus-4-6: 3.83/5.0
+
+======================================================================

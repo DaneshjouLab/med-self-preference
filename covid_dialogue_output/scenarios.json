@@ -1,0 +1,14 @@
+[
+  {
+    "scenario_id": "coviddlg_1_b9c42773",
+    "source_record_id": "1",
+    "patient_query": "Hello doctor, I get a cough for the last few days, which is heavy during night times. No raise in temperature but feeling tired with no travel history. No contact with any Covid-19 persons. It has been four to five days and has drunk a lot of Benadryl and took Paracetamol too. Doctors have shut the OP so do not know what to do? Please help.",
+    "reference_doctor_response": "Hello, I understand your concern. I just have a few more questions.\nDoes your cough has phlegm? Any other symptoms like difficulty breathing? Any other medical condition such as asthma, hypertension? Are you a smoker? Alcoholic beverage drinker?"
+  },
+  {
+    "scenario_id": "coviddlg_2_d322ad30",
+    "source_record_id": "2",
+    "patient_query": "Hello doctor, I am suffering from coughing, throat infection from last week. At that time fever did not persist and also did not felt any chest pain. Two days later, I consulted with a doctor. He prescribed Cavidur 625, Montek LC, Ambrolite syrup and Betaline gargle solution. Since then throat infection improved and frequent cough also coming out. Coughing also improved remarkably though not completely. From yesterday onwards fever is occuring (maximum 100-degree Celcius). I have not come in touch with any foreign returned person nor went outside. In our state, there is no incidence of Covid-19. Please suggest what to do?",
+    "reference_doctor_response": "Hello, I can understand your concern.\nIn my opinion, you should get done a chest x-ray and CBC (complete blood count). If both these are normal then no need to worry much. I hope this helps."
+  }
+]

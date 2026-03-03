@@ -1,6 +1,22 @@
 # Medical Self-Preference 
 This project generates multi-turn medical conversations and uses LLM-as-judge evaluation to detect self-preference bias.
 
+## Project Structure
+
+```
+med-self-preference/
+├── config/              # config.yaml
+├── src/
+│   ├── generation/     # generate_conversations.py, generate_single_turn*.py
+│   ├── evaluation/     # pairwise_*.py, individual_*.py, generate_eval_report.py
+│   └── test_generation.py
+├── visualizer/         # Next.js conversation viewer
+├── example_conversations/   # Multi-turn outputs
+├── meddialog_output/   # Single-turn MedDialog outputs
+├── covid_dialogue_output/   # Single-turn COVID outputs
+└── evals/              # Pairwise evaluation results
+```
+
 ## Quick Start
 
 ### Setup
@@ -19,7 +35,8 @@ This project generates multi-turn medical conversations and uses LLM-as-judge ev
 
 3. **Verify setup:**
    ```bash
-   python test_generation.py
+   python src/test_generation.py
+   # or: make test
    ```
 
 ## Core Tools
@@ -28,12 +45,12 @@ This project generates multi-turn medical conversations and uses LLM-as-judge ev
 Create multi-turn medical dialogues using different LLM models.
 
 ```bash
-python generate_conversations.py \
+python src/generation/generate_conversations.py \
   --num_scenarios 100 \
   --turns 2 \
   --models gpt-4 \
   --patient_model gpt-4 \
-  --output_dir ./output
+  --output_dir ./example_conversations
 ```
 
 **Key options:**
@@ -50,11 +67,12 @@ python generate_conversations.py \
 Create single-turn physician responses from a local Covid dialogue source file.
 
 ```bash
-python generate_single_turn_covid.py \
+python src/generation/generate_single_turn_covid.py \
   --source_file ./COVID-Dialogue-Dataset-English.txt \
   --num_scenarios 100 \
   --models gpt-4o \
   --output_dir ./covid_dialogue_output
+# or: make covid-gen
 ```
 
 **Useful options:**
@@ -68,11 +86,11 @@ python generate_single_turn_covid.py \
 Compare two models' responses to detect self-preference bias.
 
 ```bash
-python pairwise_evaluation.py \
+python src/evaluation/pairwise_evaluation.py \
   --model_a_file example_conversations/gpt-4_2t_conversations.json \
   --model_b_file example_conversations/claude-sonnet-4-5-20250929_2t_conversations.json \
   --judge_model claude-3-5-sonnet-20241022 \
-  --output results/pairwise_claude_judge.json
+  --output evals/pairwise_claude_judge.json
 ```
 
 **Key options:**
@@ -94,7 +112,7 @@ Each response is scored 0-5 on:
 
 ## Configuration
 
-Optional: Use `config.yaml` to set defaults instead of command-line args:
+Optional: Use `config/config.yaml` to set defaults instead of command-line args:
 
 ```yaml
 data:

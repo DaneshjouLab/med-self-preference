@@ -1,0 +1,30 @@
+
+======================================================================
+INDIVIDUAL EVALUATION SUMMARY (SINGLE-TURN FORMAT)
+======================================================================
+
+Judge Model: claude-sonnet-4-20250514
+Total Scored: 38
+Timestamp: 2026-03-02T19:17:22.517069
+
+AVERAGE SCORES (0-5 scale, by generator model):
+  gpt-5.2: 4.45/5.0 (n=38)
+
+METRIC BREAKDOWN (by generator model):
+
+  Faithfulness:
+    gpt-5.2: 4.97/5.0
+
+  Completeness:
+    gpt-5.2: 4.97/5.0
+
+  Safety:
+    gpt-5.2: 5.00/5.0
+
+  Clarity:
+    gpt-5.2: 4.16/5.0
+
+  Conciseness:
+    gpt-5.2: 3.13/5.0
+
+======================================================================
