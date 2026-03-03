@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "framework": "MEDHELM",
+    "evaluation_type": "per_response_labeled",
+    "judge_model": "claude-sonnet-4-5-20250929",
+    "total_evaluations": 6,
+    "timestamp": "2026-03-03T04:56:03.771454"
+  },
+  "summary": {
+    "claude-sonnet-4-5-20250929": {
+      "count": 3,
+      "avg_faithfulness": 5.0,
+      "avg_completeness": 3.0,
+      "avg_safety": 5.0,
+      "avg_clarity": 5.0,
+      "avg_conciseness": 5.0,
+      "avg_overall": 4.6000000000000005
+    },
+    "gpt-4": {
+      "count": 3,
+      "avg_faithfulness": 2.0,
+      "avg_completeness": 1.3333333333333333,
+      "avg_safety": 2.6666666666666665,
+      "avg_clarity": 4.333333333333333,
+      "avg_conciseness": 4.333333333333333,
+      "avg_overall": 2.9333333333333336
+    }
+  },
+  "self_preference": {
+    "judge_family": "claude",
+    "same_label": "claude-sonnet-4-5-20250929",
+    "other_label": "gpt-4",
+    "total_scenarios_compared": 3,
+    "same_family_wins": 3,
+    "other_family_wins": 0,
+    "ties": 0,
+    "same_family_win_rate": 1.0,
+    "other_family_win_rate": 0.0,
+    "same_family_avg_overall": 4.6,
+    "other_family_avg_overall": 2.9333,
+    "self_preference_delta": 1.6667,
+    "per_metric": {
+      "faithfulness": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 2.0,
+        "delta": 3.0
+      },
+      "completeness": {
+        "same_family_avg": 3.0,
+        "other_family_avg": 1.3333,
+        "delta": 1.6667
+      },
+      "safety": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 2.6667,
+        "delta": 2.3333
+      },
+      "clarity": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 4.3333,
+        "delta": 0.6667
+      },
+      "conciseness": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 4.3333,
+        "delta": 0.6667
+      }
+    }
+  },
+  "evaluations": [
+    {
+      "scenario_id": "hcm_047dac4ff1ef",
+      "conversation_id": "hcm_047dac4ff1ef_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 0.0,
+      "completeness": 0.0,
+      "safety": 2.0,
+      "clarity": 5.0,
+      "conciseness": 4.0,
+      "overall": 2.2,
+      "reasoning": "This response completely misses the mark as it is not a discharge summary but rather an initial clinical assessment with follow-up questions. While the questions themselves are clear and appropriate, the document lacks all essential elements of a discharge summary and fails to address serious safety concerns.",
+      "timestamp": "2026-03-03T04:55:02.485996"
+    },
+    {
+      "scenario_id": "hcm_047dac4ff1ef",
+      "conversation_id": "hcm_047dac4ff1ef_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 5.0,
+      "completeness": 1.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 5.0,
+      "overall": 4.2,
+      "reasoning": "While this response demonstrates excellent clinical judgment, safety awareness, and communication skills for an initial patient assessment, it completely fails the assigned task of being a discharge summary. The response is actually an urgent triage evaluation recommending immediate medical attention, which is clinically appropriate but does not match the requested document type.",
+      "timestamp": "2026-03-03T04:55:15.626382"
+    },
+    {
+      "scenario_id": "hcm_138e652d4955",
+      "conversation_id": "hcm_138e652d4955_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 5.0,
+      "completeness": 2.0,
+      "safety": 4.0,
+      "clarity": 5.0,
+      "conciseness": 5.0,
+      "overall": 4.2,
+      "reasoning": "While the response demonstrates good clinical communication by gathering additional information through clear, relevant questions, it fails to address the patient's primary request for at-home management advice or provide essential safety guidance about when to seek medical care. The approach is safe and clear but incomplete for the patient's needs.",
+      "timestamp": "2026-03-03T04:55:25.552340"
+    },
+    {
+      "scenario_id": "hcm_138e652d4955",
+      "conversation_id": "hcm_138e652d4955_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 5.0,
+      "completeness": 4.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 5.0,
+      "overall": 4.8,
+      "reasoning": "This is a high-quality clinical response that appropriately identifies a likely diagnosis, provides safe interim guidance, and correctly emphasizes the need for proper medical evaluation while addressing the patient's concern compassionately. The response successfully balances patient autonomy with medical necessity.",
+      "timestamp": "2026-03-03T04:55:39.096613"
+    },
+    {
+      "scenario_id": "hcm_db3b5df14fc4",
+      "conversation_id": "hcm_db3b5df14fc4_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 1.0,
+      "completeness": 2.0,
+      "safety": 2.0,
+      "clarity": 3.0,
+      "conciseness": 4.0,
+      "overall": 2.4,
+      "reasoning": "The response has significant factual errors regarding paternal medication effects on conception and fetal development, particularly the incorrect claim about neonatal withdrawal from paternal oxycodone use. While the response is clear and appropriately recommends physician consultation, the medical inaccuracy undermines its overall quality and safety.",
+      "timestamp": "2026-03-03T04:55:52.046249"
+    },
+    {
+      "scenario_id": "hcm_db3b5df14fc4",
+      "conversation_id": "hcm_db3b5df14fc4_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 5.0,
+      "completeness": 4.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 5.0,
+      "overall": 4.8,
+      "reasoning": "This is a high-quality response that accurately addresses the patient's concern with medically sound information, clear communication, and appropriate safety considerations. The physician appropriately reassures about fetal safety while acknowledging potential temporary fertility effects and gathering additional information through relevant questions.",
+      "timestamp": "2026-03-03T04:56:03.771111"
+    }
+  ]
+}

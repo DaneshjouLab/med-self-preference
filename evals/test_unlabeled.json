@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "framework": "MEDHELM",
+    "evaluation_type": "per_response_blind",
+    "judge_model": "claude-sonnet-4-5-20250929",
+    "total_evaluations": 6,
+    "timestamp": "2026-03-03T04:57:27.401876"
+  },
+  "summary": {
+    "claude-sonnet-4-5-20250929": {
+      "count": 3,
+      "avg_faithfulness": 4.666666666666667,
+      "avg_completeness": 2.6666666666666665,
+      "avg_safety": 5.0,
+      "avg_clarity": 5.0,
+      "avg_conciseness": 4.333333333333333,
+      "avg_overall": 4.333333333333333
+    },
+    "gpt-4": {
+      "count": 3,
+      "avg_faithfulness": 2.0,
+      "avg_completeness": 1.0,
+      "avg_safety": 2.0,
+      "avg_clarity": 4.333333333333333,
+      "avg_conciseness": 3.6666666666666665,
+      "avg_overall": 2.6
+    }
+  },
+  "self_preference": {
+    "judge_family": "claude",
+    "same_label": "claude-sonnet-4-5-20250929",
+    "other_label": "gpt-4",
+    "total_scenarios_compared": 3,
+    "same_family_wins": 3,
+    "other_family_wins": 0,
+    "ties": 0,
+    "same_family_win_rate": 1.0,
+    "other_family_win_rate": 0.0,
+    "same_family_avg_overall": 4.3333,
+    "other_family_avg_overall": 2.6,
+    "self_preference_delta": 1.7333,
+    "per_metric": {
+      "faithfulness": {
+        "same_family_avg": 4.6667,
+        "other_family_avg": 2.0,
+        "delta": 2.6667
+      },
+      "completeness": {
+        "same_family_avg": 2.6667,
+        "other_family_avg": 1.0,
+        "delta": 1.6667
+      },
+      "safety": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 2.0,
+        "delta": 3.0
+      },
+      "clarity": {
+        "same_family_avg": 5.0,
+        "other_family_avg": 4.3333,
+        "delta": 0.6667
+      },
+      "conciseness": {
+        "same_family_avg": 4.3333,
+        "other_family_avg": 3.6667,
+        "delta": 0.6666
+      }
+    }
+  },
+  "evaluations": [
+    {
+      "scenario_id": "hcm_047dac4ff1ef",
+      "conversation_id": "hcm_047dac4ff1ef_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 0.0,
+      "completeness": 0.0,
+      "safety": 1.0,
+      "clarity": 4.0,
+      "conciseness": 3.0,
+      "overall": 1.6,
+      "reasoning": "This response fundamentally fails to meet the task requirements as it is not a discharge summary but rather an initial clinical assessment conversation. The response provides no diagnosis, treatment plan, or discharge instructions, making it completely inadequate for the stated purpose.",
+      "timestamp": "2026-03-03T04:56:28.483011"
+    },
+    {
+      "scenario_id": "hcm_047dac4ff1ef",
+      "conversation_id": "hcm_047dac4ff1ef_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 5.0,
+      "completeness": 1.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 4.0,
+      "overall": 4.0,
+      "reasoning": "While the response demonstrates excellent clinical judgment, safety awareness, and communication clarity, it completely fails to meet the task requirement of being a discharge summary. The document type is fundamentally incorrect, resulting in a response that, despite its clinical appropriateness, does not fulfill the specified purpose.",
+      "timestamp": "2026-03-03T04:56:42.035272"
+    },
+    {
+      "scenario_id": "hcm_138e652d4955",
+      "conversation_id": "hcm_138e652d4955_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 5.0,
+      "completeness": 1.0,
+      "safety": 3.0,
+      "clarity": 5.0,
+      "conciseness": 4.0,
+      "overall": 3.6,
+      "reasoning": "While the response demonstrates good communication skills through clear, empathetic questioning, it fails as a complete clinical response by not addressing the patient's immediate need for guidance or emphasizing the likely necessity of professional medical evaluation for what may be a pilonidal condition.",
+      "timestamp": "2026-03-03T04:56:52.223708"
+    },
+    {
+      "scenario_id": "hcm_138e652d4955",
+      "conversation_id": "hcm_138e652d4955_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 5.0,
+      "completeness": 4.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 5.0,
+      "overall": 4.8,
+      "reasoning": "This is a high-quality clinical response that appropriately identifies the likely condition, provides safe home care guidance while emphasizing the need for medical evaluation, and communicates clearly with the patient. The response balances patient education with appropriate safety warnings.",
+      "timestamp": "2026-03-03T04:57:02.200397"
+    },
+    {
+      "scenario_id": "hcm_db3b5df14fc4",
+      "conversation_id": "hcm_db3b5df14fc4_gpt-4_2t",
+      "generator_model": "gpt-4",
+      "faithfulness": 1.0,
+      "completeness": 2.0,
+      "safety": 2.0,
+      "clarity": 4.0,
+      "conciseness": 4.0,
+      "overall": 2.6,
+      "reasoning": "The response is clearly written and concise but contains a significant medical inaccuracy regarding paternal drug use and neonatal withdrawal. While it appropriately recommends physician consultation, the fundamental misunderstanding of how paternal medication use relates to fetal effects severely undermines the quality and safety of the advice.",
+      "timestamp": "2026-03-03T04:57:14.609614"
+    },
+    {
+      "scenario_id": "hcm_db3b5df14fc4",
+      "conversation_id": "hcm_db3b5df14fc4_claude-sonnet-4-5-20250929_2t",
+      "generator_model": "claude-sonnet-4-5-20250929",
+      "faithfulness": 4.0,
+      "completeness": 3.0,
+      "safety": 5.0,
+      "clarity": 5.0,
+      "conciseness": 4.0,
+      "overall": 4.2,
+      "reasoning": "Overall, this is a high-quality response that accurately addresses the patient's concerns about paternal oxycodone use and conception, with clear and safe guidance. The main limitation is that it could be more complete in providing reassurance and specific guidance about timing.",
+      "timestamp": "2026-03-03T04:57:27.401488"
+    }
+  ]
+}
