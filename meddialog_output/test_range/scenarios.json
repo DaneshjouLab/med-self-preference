@@ -1,0 +1,12 @@
+[
+  {
+    "scenario_id": "meddlg_8b62549e9e07",
+    "patient_query": "I have a kidney infection in my right kidney. However, my left kidney is starting to hurt as well as my right hip. I have floating stools, nausea, and fatigue. When I went back to the doctor, he said my infection was clearing up but he wasn t sure if my kidneys were functioning properly. My Creatinine has been high in the past but it wasn t anything to be worried about, or so I was told. Would my kidney infection, even though it s healing, cause my kidneys to not function properly? My doctor told me I should get the results on Monday but the last time I was told that, it took 4 days. I don t want to wait that long. I guess I m just wondering that even though pain, floating stools, and nausea are the ONLY symptoms I have, is it still possible that my kidneys aren t functioning properly? If so, what would I do about that?",
+    "reference_doctor_response": "yes your kidney infection even though they are clearing can decrease your kidneys function because like any other trauma or injury caused at any part of the body leaves a scar same is the case with kidneys, once there is any infection heals it leaves a scar on the kidneys and that area is function less until that tissue heals completely.you should take 2 litres of fluids daily to avoid further damage to your kidneys,"
+  },
+  {
+    "scenario_id": "meddlg_b76619e77362",
+    "patient_query": "I am a 59 year old otherwise healthy non-smoking female. I have 20 % Stenosis of Right Coronary 20% left main artery and my cholesterol is 178. I had a mitral valve repair 10 years ago and continue on Warfarin for continuous A-flutter. I am on Digoxin and atenolol also. Echo s confirm no changes in the valve repair or heart function. My dr wants to treat the coronary stenosis with statins to keep cholesterol levels below 80. I don t want more meds. Do I need to go that route just yet? Thanks!",
+    "reference_doctor_response": "Hi,For coronary stenosis of 20%, there is no sense to treat it with stent at all. In this case stent and native vessel will have the same percentage of re stenosis and blockage. And in case of stent you should take extra medications.I would advise you to follow healthy lifestyle , to eat diet less in animal fat, rich in fish oil, eat more fresh fruits and vegetables, exercise much. And everything will be OK.Hope I could help youWishing you good healthIn case of further questions don't hesitate to askRegards,"
+  }
+]

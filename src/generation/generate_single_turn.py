@@ -12,6 +12,11 @@ from typing import List, Dict
 
 from datasets import load_dataset
 from tqdm import tqdm
+from dotenv import load_dotenv
+
+# Always load project-root .env, even if invoked outside repo root.
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+load_dotenv(PROJECT_ROOT / ".env")
 
 
 # ---------------------------------------------------------------------------
@@ -214,6 +219,7 @@ def load_meddialog_scenarios(
     seed: int = 42,
     shuffle: bool = False,
     split: str = "train",
+    start_index: int = 0,
 ) -> List[Dict]:
     """Load scenarios from the MedDialog (HealthCareMagic) dataset on HuggingFace.
 
@@ -224,6 +230,10 @@ def load_meddialog_scenarios(
       - scenario_id:  stable hash-based ID
       - patient_query: the patient's first message
       - reference_doctor_response: the doctor's response from the dataset
+
+    Args:
+        start_index: Skip this many items from the start before collecting (default 0).
+        num_scenarios: Number of valid scenarios to collect after the skip.
     """
     print(f"Loading MedDialog dataset (split={split})...")
     dataset = load_dataset(
@@ -236,8 +246,11 @@ def load_meddialog_scenarios(
         dataset = dataset.shuffle(seed=seed)
 
     scenarios: List[Dict] = []
+    collected = 0
     for i, item in enumerate(dataset):
-        if i >= num_scenarios:
+        if i < start_index:
+            continue
+        if collected >= num_scenarios:
             break
 
         src: str = item.get("src", "")
@@ -255,8 +268,9 @@ def load_meddialog_scenarios(
             "patient_query": patient_query,
             "reference_doctor_response": reference_response,
         })
+        collected += 1
 
-    print(f"Loaded {len(scenarios)} scenarios")
+    print(f"Loaded {len(scenarios)} scenarios (start_index={start_index})")
     return scenarios
 
 
@@ -291,6 +305,7 @@ async def generate_all_single_turn(
     output_dir: Path,
     temperature: float = 0.3,
     max_tokens: int = 1024,
+    source_dataset: str = "MedDialog",
 ) -> Dict[str, List[Dict]]:
     """Generate single-turn responses for all scenarios across all models."""
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -311,7 +326,7 @@ async def generate_all_single_turn(
                 record = {
                     "id": f"{scenario['scenario_id']}_{model_name}",
                     "scenario_id": scenario["scenario_id"],
-                    "source_dataset": "MedDialog",
+                    "source_dataset": source_dataset,
                     "patient_query": scenario["patient_query"],
                     "reference_doctor_response": scenario["reference_doctor_response"],
                     "generated_response": response,
@@ -387,6 +402,10 @@ async def main():
         choices=["train", "validation", "test"],
         help="HuggingFace dataset split to use (default: train)",
     )
+    parser.add_argument(
+        "--start_index", type=int, default=0,
+        help="Skip this many items from the start of the dataset (default: 0). Use with num_scenarios for range, e.g. start_index=500 num_scenarios=500 for items 500-1000.",
+    )
 
     args = parser.parse_args()
     output_dir = Path(args.output_dir)
@@ -397,6 +416,7 @@ async def main():
         seed=args.seed,
         shuffle=args.shuffle,
         split=args.split,
+        start_index=args.start_index,
     )
 
     # Save scenario metadata
@@ -410,6 +430,7 @@ async def main():
         output_dir=output_dir,
         temperature=args.temperature,
         max_tokens=args.max_tokens,
+        source_dataset="MedDialog",
     )
 
     # Combined output

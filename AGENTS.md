@@ -33,6 +33,8 @@ evals/              # Pairwise evaluation results
 
 - `src/generation/generate_conversations.py` - Multi-turn conversation generation.
 - `src/generation/generate_single_turn.py` - Single-turn generation for MedDialog-based flow.
+- `src/generation/generate_single_turn_chatdoctor.py` - Single-turn generation for ChatDoctor HealthCareMagic.
+- `src/generation/generate_single_turn_mentalchat16k.py` - Single-turn generation for ShenLab/MentalChat16K.
 - `src/generation/generate_single_turn_covid.py` - Single-turn generation for local `COVID-Dialogue-Dataset-English.txt`.
 - `src/evaluation/pairwise_evaluation.py` - Pairwise evaluation for multi-turn outputs.
 - `src/evaluation/pairwise_evaluation_single.py` - Pairwise evaluation for single-turn outputs.
@@ -76,6 +78,10 @@ Preserve backwards compatibility unless explicitly requested otherwise.
   - `python src/generation/generate_single_turn_covid.py --source_file ./COVID-Dialogue-Dataset-English.txt --num_scenarios 20 --parse_only`
 - Single-turn Covid generation:
   - `python src/generation/generate_single_turn_covid.py --source_file ./COVID-Dialogue-Dataset-English.txt --num_scenarios 100 --models gpt-4o --output_dir ./covid_dialogue_output`
+- Single-turn ChatDoctor generation:
+  - `python src/generation/generate_single_turn_chatdoctor.py --num_scenarios 100 --models gpt-5.2 claude-opus-4-6 --output_dir ./chatdoctor_output`
+- Single-turn MentalChat16K generation:
+  - `python src/generation/generate_single_turn_mentalchat16k.py --num_scenarios 100 --models gpt-5.2 claude-opus-4-6 --output_dir ./mentalchat16k_output`
 - Single-turn pairwise eval:
   - `python src/evaluation/pairwise_evaluation_single.py --help`
 - Smoke test:

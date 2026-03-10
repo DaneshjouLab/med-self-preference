@@ -275,6 +275,7 @@ def load_covid_dialogue_scenarios(
     seed: int = 42,
     shuffle: bool = False,
     source_file: str = "./COVID-Dialogue-Dataset-English.txt",
+    start_index: int = 0,
 ) -> List[Dict]:
     """Load and parse first-turn scenarios from local Covid Dialogue data."""
     data_path = Path(source_file)
@@ -308,7 +309,7 @@ def load_covid_dialogue_scenarios(
         rng = random.Random(seed)
         rng.shuffle(parsed)
 
-    selected = parsed[:num_scenarios]
+    selected = parsed[start_index:start_index + num_scenarios]
     scenarios: List[Dict] = []
 
     for source_id, patient_query, reference_response in selected:
@@ -323,7 +324,7 @@ def load_covid_dialogue_scenarios(
             }
         )
 
-    print(f"Loaded {len(scenarios)} scenarios")
+    print(f"Loaded {len(scenarios)} scenarios (start_index={start_index})")
     return scenarios
 
 
@@ -473,6 +474,16 @@ async def main():
         help="Path to local COVID-Dialogue-Dataset-English.txt source file",
     )
     parser.add_argument(
+        "--start_index",
+        type=int,
+        default=0,
+        help=(
+            "Skip this many parsed records before sampling "
+            "(default: 0). Use with num_scenarios for ranges, "
+            "e.g., start_index=500 num_scenarios=500 for entries 500-999."
+        ),
+    )
+    parser.add_argument(
         "--parse_only",
         action="store_true",
         help="Only parse and write scenarios.json, then exit",
@@ -486,6 +497,7 @@ async def main():
         seed=args.seed,
         shuffle=args.shuffle,
         source_file=args.source_file,
+        start_index=args.start_index,
     )
 
     output_dir.mkdir(parents=True, exist_ok=True)
