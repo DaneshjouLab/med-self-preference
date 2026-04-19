@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-04-19T23:49:40+00:00",
+  "normalization": "NFKC, lowercase, collapse whitespace, trim spaces before punctuation",
+  "source_priority_for_overlap_resolution": [
+    "healthcaremagic-100k",
+    "icliniq",
+    "COVID Dialog",
+    "MentalHealthChat16K"
+  ],
+  "source_candidate_counts": {
+    "healthcaremagic-100k": 112164,
+    "icliniq": 7321,
+    "COVID Dialog": 604,
+    "MentalHealthChat16K": 16084
+  },
+  "source_unique_question_counts": {
+    "healthcaremagic-100k": 112146,
+    "icliniq": 7321,
+    "COVID Dialog": 592,
+    "MentalHealthChat16K": 15856
+  },
+  "total_unique_questions_global": 135872,
+  "overlapping_unique_questions_global": 43,
+  "overlap_rate_global": 0.0003164743287800283,
+  "pairwise_overlap": [
+    {
+      "source_a": "healthcaremagic-100k",
+      "source_b": "COVID Dialog",
+      "shared_unique_questions": 43,
+      "examples": [
+        {
+          "question_hash_normalized": "fce5b14c073b8ccf278d299f",
+          "question_preview": "hi doctor,pls help me as my 67 year old mother is critical due to Tuberclosis and pneumonia .Her right lung is almost destroyed due to TB..This is a 3rd attack of the disease in last 14yrs.She is having difficulty breathing without oxygen and her oxygen levels are pretty low with",
+          "sources": [
+            "healthcaremagic-100k",
+            "COVID Dialog"
+          ]
+        },
+        {
+          "question_hash_normalized": "7f49fc477c03dad944d5fc42",
+          "question_preview": "I have had a Percocet addiction for 35 years and have had many Dr.s in that time span. I was up to without exaggeration, eating 240 10mg p s, 98 30mg oxycodone pills, as well as an assortment of 5mg pills which were always at my disposal. I have cancer and have severe back injuri",
+          "sources": [
+            "healthcaremagic-100k",
+            "COVID Dialog"
+          ]
+        },
+        {
+          "question_hash_normalized": "b777bc87fae662a2caac3ff5",
+          "question_preview": "I have been sick with a sinus infection and tonsillitis over the last week and a half. i am on antibiotics for these. Now I feel it in my chest. I am coughing non stop. My throat doesnt hurt much just from the coughing. My chest feels heavy and I have some issues with breathing. ",
+          "sources": [
+            "healthcaremagic-100k",
+            "COVID Dialog"
+          ]
+        },
+        {
+          "question_hash_normalized": "9e7d3bcb8399711787571c40",
+          "question_preview": "hello doc.Im Gigi 51 yrs old previously i have ptb but the doctor told me that it was cured already 7 yrs ago every time i go to his clinic he told me i have a pneumonia after en x-ray result even though i told him that i spit w/ blood last monday i go to his clinic agin for a me",
+          "sources": [
+            "healthcaremagic-100k",
+            "COVID Dialog"
+          ]
+        },
+        {
+          "question_hash_normalized": "7ca988523334520a6825c083",
+          "question_preview": "i had a severe bout of pneumonia is Nov.  I am feeling pain in the same area of my right lung again. Am coughing a bit but do not have a cold. Did notice a little mucos over the past couple of days. could the pneumonia be back?  typcially i ma in great shape",
+          "sources": [
+            "healthcaremagic-100k",
+            "COVID Dialog"
+          ]
+        }
+      ]
+    },
+    {
+      "source_a": "healthcaremagic-100k",
+      "source_b": "icliniq",
+      "shared_unique_questions": 0,
+      "examples": []
+    },
+    {
+      "source_a": "healthcaremagic-100k",
+      "source_b": "MentalHealthChat16K",
+      "shared_unique_questions": 0,
+      "examples": []
+    },
+    {
+      "source_a": "icliniq",
+      "source_b": "COVID Dialog",
+      "shared_unique_questions": 0,
+      "examples": []
+    },
+    {
+      "source_a": "icliniq",
+      "source_b": "MentalHealthChat16K",
+      "shared_unique_questions": 0,
+      "examples": []
+    },
+    {
+      "source_a": "COVID Dialog",
+      "source_b": "MentalHealthChat16K",
+      "shared_unique_questions": 0,
+      "examples": []
+    }
+  ]
+}

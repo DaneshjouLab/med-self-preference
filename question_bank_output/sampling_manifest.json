@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-04-19T23:49:40+00:00",
+  "target_total": 10000,
+  "final_total": 10000,
+  "unfilled_target": 0,
+  "sampling_seed": 42,
+  "source_priority_for_overlap_resolution": [
+    "healthcaremagic-100k",
+    "icliniq",
+    "COVID Dialog",
+    "MentalHealthChat16K"
+  ],
+  "source_inputs": {
+    "healthcaremagic_file": "/Users/vincentyip/programming/med-self-preference/HealthCareMagic-100k.json",
+    "icliniq_file": "/Users/vincentyip/programming/med-self-preference/iCliniq.json",
+    "covid_file": "/Users/vincentyip/programming/med-self-preference/COVID-Dialogue-Dataset-English.txt",
+    "mental_dataset": "ShenLab/MentalChat16K",
+    "mental_split": "train"
+  },
+  "candidate_counts_by_source": {
+    "healthcaremagic-100k": 112164,
+    "icliniq": 7321,
+    "COVID Dialog": 604,
+    "MentalHealthChat16K": 16084
+  },
+  "unique_pool_sizes_after_dedup_by_source": {
+    "healthcaremagic-100k": 112146,
+    "icliniq": 7321,
+    "COVID Dialog": 549,
+    "MentalHealthChat16K": 15856
+  },
+  "equal_targets_by_source": {
+    "healthcaremagic-100k": 2500,
+    "icliniq": 2500,
+    "COVID Dialog": 2500,
+    "MentalHealthChat16K": 2500
+  },
+  "selected_counts_after_initial_pass": {
+    "healthcaremagic-100k": 2500,
+    "icliniq": 2500,
+    "COVID Dialog": 549,
+    "MentalHealthChat16K": 2500
+  },
+  "backfill_allocations_by_source": {
+    "healthcaremagic-100k": 1673,
+    "icliniq": 74,
+    "COVID Dialog": 0,
+    "MentalHealthChat16K": 204
+  },
+  "final_selected_counts_by_source": {
+    "healthcaremagic-100k": 4173,
+    "icliniq": 2574,
+    "COVID Dialog": 549,
+    "MentalHealthChat16K": 2704
+  },
+  "output_files": {
+    "question_bank_json": "/Users/vincentyip/programming/med-self-preference/question_bank_output/question_bank_10k.json",
+    "question_bank_csv": "/Users/vincentyip/programming/med-self-preference/question_bank_output/question_bank_10k.csv",
+    "overlap_report_json": "/Users/vincentyip/programming/med-self-preference/question_bank_output/overlap_report.json",
+    "sampling_manifest_json": "/Users/vincentyip/programming/med-self-preference/question_bank_output/sampling_manifest.json"
+  }
+}

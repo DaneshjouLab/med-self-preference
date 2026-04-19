@@ -1,3 +1,8 @@
 visualizer/node_modules/
 visualizer/.next/
 .env
+
+# local raw datasets
+HealthCareMagic-100k.json
+iCliniq.json
+*.DS_Store
