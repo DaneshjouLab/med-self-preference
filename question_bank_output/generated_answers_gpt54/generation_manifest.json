@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-04-27T06:01:10.755939",
+  "input_csv": "/Users/vincentyip/programming/med-self-preference/question_bank_output/question_bank_10k.csv",
+  "output_dir": "/Users/vincentyip/programming/med-self-preference/question_bank_output/generated_answers_gpt54",
+  "model": "gpt-5.4",
+  "temperature": 0.3,
+  "max_tokens": 1024,
+  "start_index": 0,
+  "num_questions": null,
+  "resume": true,
+  "retries": 2,
+  "save_every": 40,
+  "batch_size": 40,
+  "concurrency": 8,
+  "stop_on_quota_exhausted": true,
+  "total_rows_loaded": 10000,
+  "total_responses_written": 10000,
+  "run_result": {
+    "status": "completed",
+    "processed_count": 10000,
+    "failed_count": 0,
+    "quota_exhausted": false,
+    "quota_error_sample": "",
+    "output_file": "/Users/vincentyip/programming/med-self-preference/question_bank_output/generated_answers_gpt54/gpt-5.4_responses.json",
+    "responses_written": 10000,
+    "last_success_row_position": 9999,
+    "last_success_csv_line_number": 10001,
+    "quota_trigger_row_position": null,
+    "quota_trigger_csv_line_number": null
+  }
+}
